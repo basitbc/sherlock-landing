@@ -1,0 +1,517 @@
+// SIMPLIFIED HEADER STYLES
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.6rem 4rem;
+  transition: all 0.3s ease;
+  background: transparent;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: translateY(0);
+
+  @include media(lg) {
+    padding: 1.4rem 3rem;
+  }
+
+  @include media(md) {
+    padding: 1.2rem 2.4rem;
+  }
+
+  @include media(sm) {
+    padding: 1rem 2rem;
+  }
+
+  // Non-transparent header with background
+  &--with-background {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .header__logo-text {
+      color: #333;
+    }
+
+    .header__phone span {
+      color: #333;
+    }
+  }
+
+  // Hidden state for when section header is sticky
+  &--hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  &--scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .header__logo-text {
+      color: #333;
+    }
+
+    .header__phone span {
+      color: #333;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  &__logo {
+    cursor: pointer;
+
+    &-text {
+      font-family: $brandon-grotesque;
+      font-weight: 900;
+      font-size: 1.4rem;
+      line-height: 1.1;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      display: inline-block;
+      padding: 0.6rem 1rem;
+      border-radius: 0.6rem;
+      transition: all 0.3s ease;
+
+      @include media(sm) {
+        font-size: 1.2rem;
+        padding: 0.5rem 0.8rem;
+      }
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.15);
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__phone {
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      opacity: 0.8;
+      transform: translateY(-1px);
+    }
+
+    span {
+      font-family: $brandon-grotesque;
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: white;
+      transition: color 0.3s ease;
+      letter-spacing: 0.05em;
+
+      @include media(lg) {
+        font-size: 1.6rem;
+      }
+
+      @include media(md) {
+        font-size: 1.5rem;
+      }
+
+      @include media(sm) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+
+// SECTION TITLE NAVIGATION STYLES
+.section-title {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  z-index: 999; // Just below the main header
+
+  // Hidden state for when scrolling up
+  &--hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  &--sticky {
+    position: fixed;
+    top: 0; // Take exact position of header
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+    height: 5rem; // Match header height
+    display: flex;
+    align-items: center;
+  }
+
+  &__container {
+    max-width: 1440px; // Match header container
+    margin: 0 auto;
+    padding: 0 4rem; // Match header padding
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; // Center the section navigation
+
+    @include media(lg) {
+      padding: 0 3rem;
+    }
+
+    @include media(md) {
+      padding: 0 2.4rem;
+    }
+
+    @include media(sm) {
+      padding: 0 2rem;
+      justify-content: flex-start; // Left align on mobile for scrolling
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    height: 100%;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @include media(sm) {
+      gap: 1rem;
+      padding: 0 0.5rem;
+    }
+  }
+
+  &__item {
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    @include media(sm) {
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+    font-family: $brandon-grotesque;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #666;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0 2.4rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    @include media(lg) {
+      font-size: 1.3rem;
+      padding: 0 2rem;
+    }
+
+    @include media(md) {
+      font-size: 1.2rem;
+      padding: 0 1.8rem;
+    }
+
+    @include media(sm) {
+      font-size: 1.1rem;
+      padding: 0 1.6rem;
+    }
+
+    // Underline effect
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #e91e63, #e7247a);
+      transition: width 0.3s ease;
+    }
+
+    // Desktop hover effects only
+    @include media(md-up) {
+      &:hover {
+        color: #e7247a;
+        background: rgba(231, 36, 122, 0.05);
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+
+    &--active {
+      color: #e7247a;
+      font-weight: 600;
+
+      &::after {
+        width: 100%;
+        background: linear-gradient(90deg, #e91e63, #e7247a);
+      }
+    }
+
+    &:focus {
+      outline: none;
+      background: rgba(231, 36, 122, 0.1);
+    }
+
+    // Remove hover effects on mobile
+    @include media(sm) {
+      &:hover {
+        color: #666;
+        background: none;
+
+        &::after {
+          width: 0;
+        }
+      }
+
+      // But keep active state on mobile
+      &--active {
+        color: #e7247a;
+        font-weight: 600;
+
+        &::after {
+          width: 100%;
+          background: linear-gradient(90deg, #e91e63, #e7247a);
+        }
+      }
+    }
+  }
+
+  // When not sticky, restore original padding and centering
+  &:not(&--sticky) {
+    .section-title__container {
+      padding: 2rem 4rem;
+      justify-content: center;
+
+      @include media(lg) {
+        padding: 1.8rem 3rem;
+      }
+
+      @include media(md) {
+        padding: 1.6rem 2.4rem;
+      }
+
+      @include media(sm) {
+        padding: 1.4rem 2rem;
+        justify-content: flex-start; // Keep left aligned on mobile
+      }
+    }
+
+    .section-title__link {
+      padding: 1rem 2.4rem;
+      height: auto;
+
+      @include media(lg) {
+        padding: 1rem 2rem;
+      }
+
+      @include media(md) {
+        padding: 1rem 1.8rem;
+      }
+
+      @include media(sm) {
+        padding: 1rem 1.6rem;
+      }
+    }
+  }
+}
+
+// MOBILE SPECIFIC STYLES
+@include media(sm) {
+  .section-title {
+    &__list {
+      justify-content: flex-start;
+      padding-bottom: 0.5rem;
+    }
+
+    &__link {
+      min-width: max-content;
+    }
+
+    &--sticky {
+      .section-title__container {
+        padding: 0 2rem;
+      }
+    }
+  }
+}
+
+// SCROLL INDICATORS FOR MOBILE
+@include media(sm) {
+  .section-title__list {
+    position: relative;
+
+    // Left gradient indicator
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2rem;
+      background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    // Right gradient indicator
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 2rem;
+      background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+      z-index: 1;
+      pointer-events: none;
+    }
+  }
+
+  .section-title--sticky .section-title__list {
+
+    &::before,
+    &::after {
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
+    }
+
+    &::after {
+      background: linear-gradient(to left, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
+    }
+  }
+}
+
+// ANIMATIONS
+.section-title__link {
+  &--active {
+    animation: activeLink 0.3s ease;
+  }
+}
+
+@keyframes activeLink {
+  0% {
+    transform: translateY(2px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// HIGH CONTRAST MODE
+@media (prefers-contrast: high) {
+  .section-title {
+    border-bottom-color: #000;
+
+    &__link {
+      color: #000;
+
+      &:hover,
+      &--active {
+        color: #e7247a;
+        background: rgba(231, 36, 122, 0.2);
+      }
+    }
+  }
+}
+
+// REDUCED MOTION
+@media (prefers-reduced-motion: reduce) {
+  .header {
+    transition: none;
+  }
+
+  .section-title {
+    transition: none;
+
+    &__link {
+      transition: none;
+
+      &::after {
+        transition: none;
+      }
+    }
+
+    &__list {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+// DARK MODE SUPPORT
+@media (prefers-color-scheme: dark) {
+  .section-title {
+    background: #1a1a1a;
+    border-bottom-color: #333;
+
+    &--sticky {
+      background: rgba(26, 26, 26, 0.95);
+    }
+
+    &__link {
+      color: #ccc;
+
+      @include media(md-up) {
+        &:hover {
+          color: #e7247a;
+          background: rgba(231, 36, 122, 0.1);
+        }
+      }
+
+      &--active {
+        color: #e7247a;
+      }
+    }
+  }
+}

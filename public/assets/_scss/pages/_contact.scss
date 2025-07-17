@@ -1,0 +1,104 @@
+
+// contact map scss //
+.contact-map-section{
+    margin-top: 8rem;
+    // border: 1px solid black;
+    @include media(lg){
+        margin-top: 6rem;
+    }
+    @include media(sm){
+        margin-top: 4rem;
+    }
+    .contact-map-area{
+        margin-top: 6rem;
+        @include media(lg){
+            margin-top: 4rem;
+        }
+        @include media(sm){
+            margin-top: 2.8rem;
+        }
+    }
+}
+
+// contact-input scss //
+.contact-input{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    @include media(xl){
+        display: flex;
+        flex-direction: column;
+    }
+    @include media(lg){
+        margin-top: 6rem;
+        gap: 3.6rem;
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem !important;
+        flex-wrap: wrap;
+        max-width: 76rem;
+        @include media(xl){
+            width: 100%;
+            max-width: 100%;
+
+        }
+        .input-field{
+            width: 37rem;
+            border-radius: 0.8rem;
+            height: 6.4rem;
+            @include media(xl){
+                width: 48.5%;
+            }
+            @include media(lg){
+                width: 48.5%;
+            }
+            @include media(sm){
+                width: 100%;
+            }
+        }
+        .message-box {
+            width: 76rem;
+            height: 23rem;
+            border-radius: 0.8rem;
+            @include media(xl){
+                width: 100%;
+                height: 20rem;
+            }
+            @include media(sm){
+                width: 100%;
+                height: 12rem;
+            }
+
+          }
+
+    }
+    .contact-right{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        .contact-details{
+            border: 1px solid $grey-2B2;
+            border-radius: 0.8rem;
+            padding: 2rem;
+            gap: 2rem;
+            @include media(sm){
+                padding: 1.6rem;
+            }
+        }
+        .contact-details:nth-child(2) {
+            background-color: black;
+            color: white;
+
+            // override nested styles if needed
+            p, span {
+              color: white;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+// EXPLORE TRIPS SCSS //
+.explore-trips{
+    margin-top: 8rem !important;
+     padding-left: 0 !important;
+     display: flex;
+     flex-direction: row;
+     @include media(lg){
+        margin-top: 6rem;
+     }
+     @include media(sm){
+        margin-top: 6rem;
+     }
+     @media (max-width: 700px) {
+        display: flex;
+        flex-direction: column;
+     }
+     .explore-image{
+        max-width: 67rem;
+        max-height : 56rem;
+        border-radius: 2rem;
+        margin-right: 4rem;
+        @include media(xl){
+            max-width: 50rem;
+            height: 48rem;
+        }
+        @include media(lg){
+            max-width: 40rem;
+            height: auto;
+            margin-right: 3.2rem;
+        }
+        @include media(md){
+            max-width: 32rem;
+            max-height: 38rem;
+        }
+        @media (max-width: 700px) {
+           max-width: 100%;
+           margin-bottom: 2rem;
+         }
+}
+.explore-content{
+
+    .primary-btn{
+        margin-top: 8rem;
+        border-radius: 0.8rem !important;
+        padding: 2rem 4rem !important;
+        @include media(lg){
+            margin-top: 4rem;
+        }
+        @include media(sm){
+            padding: 1.6rem 2.8rem !important;
+        }
+    }
+    .arrow {
+        color: white;
+        background: none;
+        font-size: 24px;
+        margin-left: 1rem;
+      }
+
+}
+
+}

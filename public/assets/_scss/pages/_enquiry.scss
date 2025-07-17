@@ -1,0 +1,859 @@
+// Variables (adjust these to match your theme)
+$primary-color: #e7247a;
+$secondary-color: #ff6b35;
+$text-color: #333;
+$text-light: #666;
+$text-lighter: #999;
+$border-color: #e0e0e0;
+$border-light: #f0f0f0;
+$background-white: #ffffff;
+$background-light: #f9f9f9;
+$shadow-light: rgba(0, 0, 0, 0.1);
+$shadow-medium: rgba(0, 0, 0, 0.15);
+$brandon-grotesque: 'Brandon Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+// Mixins
+@mixin media($breakpoint) {
+    @if $breakpoint ==sm {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint ==md {
+        @media (max-width: 1024px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint ==lg {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+}
+
+// Modal Styles
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    padding: 2rem;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    animation: modal-fade-in 0.3s ease-out;
+
+    @include media(sm) {
+        padding: 1rem;
+    }
+}
+
+.modal-content-enquiry {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    max-width: 500px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 2rem 4rem;
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(0, 0, 0, 0.05);
+    animation: modal-slide-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: relative;
+
+    @include media(sm) {
+        max-width: 100%;
+        border-radius: 1.2rem;
+        margin: 1rem;
+    }
+}
+
+.modal-header {
+    padding: 3rem 3rem 1.5rem;
+    text-align: center;
+    position: relative;
+    background: #ffffff;
+    border-radius: 1.5rem 1.5rem 0 0;
+
+    @include media(sm) {
+        padding: 2.5rem 2rem 1rem;
+        border-radius: 1.2rem 1.2rem 0 0;
+    }
+
+    .success-icon {
+        width: 7rem;
+        height: 7rem;
+        margin: 0 auto 1.5rem;
+        background: linear-gradient(135deg, #10b981, #059669);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        animation: success-bounce 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s both;
+        box-shadow: 0 8px 20px rgba(16, 185, 129, 0.25);
+        position: relative;
+
+        @include media(sm) {
+            width: 6rem;
+            height: 6rem;
+            margin-bottom: 1.2rem;
+        }
+
+        svg {
+            width: 3.5rem;
+            height: 3.5rem;
+            stroke-width: 3;
+
+            @include media(sm) {
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+    }
+
+    .modal-title {
+        font-family: $brandon-grotesque;
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: $primary-color;
+        margin: 0;
+        text-align: center;
+        line-height: 1.3;
+
+        @include media(sm) {
+            font-size: 2rem;
+        }
+    }
+}
+
+.modal-body {
+    padding: 1.5rem 3rem 2.5rem;
+
+    @include media(sm) {
+        padding: 1rem 2rem 2rem;
+    }
+
+    .modal-message {
+        font-family: $brandon-grotesque;
+        font-size: 2rem;
+        color: #fff;
+        line-height: 1.6;
+        margin-bottom: 2.5rem;
+        text-align: center;
+
+        @include media(sm) {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .modal-contact-info {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        color: #fff;
+
+        @include media(sm) {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-family: $brandon-grotesque;
+            font-size: 1.4rem;
+            color: #fff;
+
+            margin-bottom: 2rem;
+            font-weight: 500;
+
+            @include media(sm) {
+                font-size: 1.3rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    .modal-contact-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+
+        @include media(sm) {
+            gap: 0.8rem;
+        }
+    }
+
+    .modal-contact-btn {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.2rem 2rem;
+        background: #ffffff;
+        border: 2px solid rgba($primary-color, 0.15);
+        border-radius: 0.8rem;
+        color: $primary-color;
+        font-family: $brandon-grotesque;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        min-width: 280px;
+        justify-content: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+        @include media(sm) {
+            min-width: 240px;
+            padding: 1rem 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        &:hover {
+            background: rgba($primary-color, 0.02);
+            border-color: rgba($primary-color, 0.25);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        &:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 0 0 3px rgba($primary-color, 0.1);
+        }
+
+        .modal-contact-icon {
+            width: 1.8rem;
+            height: 1.8rem;
+            flex-shrink: 0;
+
+            @include media(sm) {
+                width: 1.6rem;
+                height: 1.6rem;
+            }
+        }
+    }
+}
+
+.modal-footer {
+    padding: 0 3rem 3rem;
+    text-align: center;
+
+    @include media(sm) {
+        padding: 0 2rem 2rem;
+    }
+
+    .modal-close-btn {
+        background: linear-gradient(135deg, $primary-color, $secondary-color);
+        color: white;
+        border: none;
+        padding: 1.2rem 3rem;
+        border-radius: 3rem;
+        font-family: $brandon-grotesque;
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 4px 12px rgba($primary-color, 0.25);
+        min-width: 140px;
+
+        @include media(sm) {
+            padding: 1rem 2.5rem;
+            font-size: 1.3rem;
+            min-width: 120px;
+        }
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba($primary-color, 0.3);
+        }
+
+        &:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba($primary-color, 0.2);
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 4px 12px rgba($primary-color, 0.25), 0 0 0 3px rgba($primary-color, 0.2);
+        }
+    }
+}
+
+// Simplified Modal Animations
+@keyframes modal-fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes modal-slide-in {
+    from {
+        transform: translateY(-30px) scale(0.95);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes success-bounce {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+// Main container
+.enquiry-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background: $background-white;
+
+    @include media(md) {
+        padding: 3rem 1.5rem;
+    }
+
+    @include media(sm) {
+        padding: 2rem 1rem;
+    }
+}
+
+.enquiry-content {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 6rem;
+    align-items: start;
+
+    @include media(md) {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    @include media(sm) {
+        gap: 3rem;
+    }
+}
+
+// Form Section
+.enquiry-form-section {
+    .enquiry-title {
+        font-family: $brandon-grotesque;
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: $text-color;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -1rem;
+            left: 0;
+            width: 6rem;
+            height: 3px;
+            background: linear-gradient(135deg, $primary-color, $secondary-color);
+        }
+
+        @include media(md) {
+            font-size: 2.2rem;
+        }
+
+        @include media(sm) {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+// Form Styles
+.enquiry-form {
+    .form-group {
+        margin-bottom: 2.5rem;
+
+        @include media(sm) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .form-label {
+        display: block;
+        font-family: $brandon-grotesque;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: $text-color;
+        margin-bottom: 0.8rem;
+        text-transform: capitalize;
+
+        @include media(sm) {
+            font-size: 1.4rem;
+        }
+
+        .required {
+            color: $primary-color;
+            margin-left: 0.2rem;
+        }
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 1.5rem 1.8rem;
+        border: 2px solid $border-color;
+        border-radius: 0.8rem;
+        font-family: $brandon-grotesque;
+        font-size: 1.5rem;
+        color: $text-color;
+        background: $background-white;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+
+        @include media(sm) {
+            padding: 1.2rem 1.5rem;
+            font-size: 1.4rem;
+        }
+
+        &::placeholder {
+            color: $text-lighter;
+            font-weight: 400;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: $primary-color;
+            box-shadow: 0 0 0 3px rgba($primary-color, 0.1);
+        }
+
+        &:hover {
+            border-color: darken($border-color, 10%);
+        }
+    }
+
+    .form-textarea {
+        resize: vertical;
+        min-height: 12rem;
+        font-family: $brandon-grotesque;
+        line-height: 1.6;
+
+        @include media(sm) {
+            min-height: 10rem;
+        }
+    }
+
+    // Phone input specific styling
+    .phone-input-container {
+        display: flex;
+        gap: 1rem;
+
+        @include media(sm) {
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+    }
+
+    .country-input {
+        flex: 0 0 auto;
+        width: 10rem;
+        text-align: center;
+
+        @include media(sm) {
+            width: 100%;
+            text-align: left;
+        }
+    }
+
+    .phone-input {
+        flex: 1;
+
+        @include media(sm) {
+            width: 100%;
+        }
+    }
+}
+
+// Newsletter Section
+.newsletter-section {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: $background-light;
+    border-radius: 1rem;
+    border: 1px solid $border-light;
+
+    @include media(sm) {
+        padding: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .newsletter-text {
+        font-family: $brandon-grotesque;
+        font-size: 1.4rem;
+        color: $text-light;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+
+        @include media(sm) {
+            font-size: 1.3rem;
+        }
+    }
+
+    .checkbox-container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .newsletter-checkbox {
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid $border-color;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        position: relative;
+        appearance: none;
+        transition: all 0.3s ease;
+
+        &:checked {
+            background: $primary-color;
+            border-color: $primary-color;
+
+            &::after {
+                content: '✓';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba($primary-color, 0.1);
+        }
+    }
+
+    .newsletter-label {
+        font-family: $brandon-grotesque;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: $text-color;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
+
+// Submit Button
+.submit-button {
+    background: linear-gradient(135deg, $primary-color, $secondary-color);
+    color: white;
+    border: none;
+    padding: 1.8rem 4rem;
+    border-radius: 5rem;
+    font-family: $brandon-grotesque;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba($primary-color, 0.3);
+    position: relative;
+    overflow: hidden;
+
+    @include media(sm) {
+        width: 100%;
+        padding: 1.5rem 3rem;
+        font-size: 1.4rem;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transition: left 0.5s ease;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba($primary-color, 0.4);
+
+        &::before {
+            left: 100%;
+        }
+
+        @media (hover: none) {
+            transform: none;
+            box-shadow: 0 4px 15px rgba($primary-color, 0.3);
+        }
+    }
+
+    &:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 10px rgba($primary-color, 0.3);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 4px 15px rgba($primary-color, 0.3), 0 0 0 3px rgba($primary-color, 0.2);
+    }
+}
+
+// Contact Info Section
+.contact-info-section {
+    background: $background-light;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    border: 1px solid $border-light;
+    height: fit-content;
+    position: sticky;
+    top: 2rem;
+
+    @include media(md) {
+        position: static;
+        padding: 2.5rem;
+    }
+
+    @include media(sm) {
+        padding: 2rem;
+    }
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @include media(md) {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    @include media(sm) {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    @include media(md) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    @include media(sm) {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        gap: 1.5rem;
+    }
+}
+
+.contact-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: $primary-color;
+    flex-shrink: 0;
+
+    @include media(sm) {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+
+.contact-content {
+    flex: 1;
+
+    .contact-title {
+        font-family: $brandon-grotesque;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: $text-color;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        @include media(sm) {
+            font-size: 1.3rem;
+        }
+    }
+
+    .contact-link {
+        display: block;
+        font-family: $brandon-grotesque;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: $primary-color;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+        transition: all 0.3s ease;
+        border: none;
+        background: none;
+        cursor: pointer;
+        padding: 0;
+        text-align: left;
+
+        @include media(md) {
+            text-align: center;
+        }
+
+        @include media(sm) {
+            font-size: 1.6rem;
+            text-align: left;
+        }
+
+        &:hover {
+            color: darken($primary-color, 10%);
+            text-decoration: underline;
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba($primary-color, 0.2);
+            border-radius: 0.3rem;
+        }
+    }
+
+    .contact-subtitle {
+        font-family: $brandon-grotesque;
+        font-size: 1.3rem;
+        color: $text-light;
+        margin: 0;
+        line-height: 1.4;
+
+        @include media(sm) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+// Responsive adjustments
+@media (max-width: 480px) {
+    .enquiry-container {
+        padding: 1.5rem 1.8rem;
+    }
+
+    .enquiry-content {
+        gap: 2rem;
+    }
+
+    .contact-info-section {
+        padding: 1.5rem;
+    }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+    .enquiry-container {
+        background: #1a1a1a;
+        color: #ffffff;
+    }
+
+    .enquiry-title {
+        color: #ffffff;
+    }
+
+    .form-label {
+        color: #ffffff;
+    }
+
+    .form-input {
+        background: #2a2a2a;
+        border-color: #404040;
+        color: #ffffff;
+
+        &::placeholder {
+            color: #888888;
+        }
+    }
+
+    .newsletter-section {
+        background: #2a2a2a;
+        border-color: #404040;
+    }
+
+    .contact-info-section {
+        background: #2a2a2a;
+        border-color: #404040;
+    }
+
+    .contact-title {
+        color: #ffffff;
+    }
+
+    .contact-subtitle {
+        color: #cccccc;
+    }
+
+    // Modal stays white in dark mode to match the design
+    .modal-overlay {
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .modal-content-enquiry {
+        background: #ffffff;
+        color: #333333;
+    }
+
+    .modal-title {
+        color: $primary-color;
+    }
+
+    .modal-message {
+        color: $text-light;
+    }
+
+    .modal-contact-info p {
+        color: $text-light;
+    }
+
+    .modal-contact-btn {
+        background: #ffffff;
+        color: $primary-color;
+        border-color: rgba($primary-color, 0.15);
+    }
+}

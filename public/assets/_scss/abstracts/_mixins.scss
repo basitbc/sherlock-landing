@@ -1,0 +1,207 @@
+$breakpoints: (
+  sm: (
+    min: 576px,
+    max: 575.98px
+  ),
+  md: (
+    min: 744px,
+    max: 743.98px
+  ),
+  lg: (
+    min: 992px,
+    max: 991.98px
+  ),
+  xl: (
+    min: 1200px,
+    max: 1199.98px
+  ),
+  xxl: (
+    min: 1400px,
+    max: 1399.98px
+  )
+);
+
+@mixin breakpoint($breakpoint, $direction: min) {
+  //check if the supplied breakpoint exists in our breakpoits map
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-values: map-get($breakpoints, $breakpoint);
+    $breakpoint-min: map-get($breakpoint-values, min);
+    $breakpoint-max: map-get($breakpoint-values, max);
+
+    //check if we are writing styles for larger or smaller screens
+    @if $direction == min {
+      @media (min-width: $breakpoint-min) {
+        @content;
+      }
+    } @else {
+      @media (max-width: $breakpoint-max) {
+        @content;
+      }
+    }
+
+    // use the custom value if the breakpoint is not part of the pre-defined list
+  } @else {
+    @if $direction == min {
+      @media (min-width: $breakpoint) {
+        @content;
+      }
+    } @else {
+      @media (max-width: $breakpoint) {
+        @content;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// String Replace
+// =============================================================================
+
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+    eot: "?",
+    svg: "#" + str-replace($name, " ", "_")
+  );
+
+  $formats: (
+    otf: "opentype",
+    ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+
+@mixin font($color, $family, $size, $weight, $lineHeight) {
+  font-family: $family, Arial, Helvetica, sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $lineHeight;
+}
+@mixin fontWeight( $font-family,$font-weight, $font-style) {
+	font-family: $font-family;
+	font-weight: $font-weight;
+	font-style: $font-style;
+  }
+
+  $xs-min: 360px;
+$xs-max: 575px;
+$sm-min: 576px;
+$sm-max: 767px;
+$md-min: 768px;
+$md-max: 1023px;
+$lg-min: 1024px;
+$lg-max: 1279px;
+$xl-min: 1280px;
+$xl-max: 1439px;
+$xxl-min: 1440px;
+$xxl-max: 1600px;
+
+
+
+// Extra small devices (phones)
+@mixin xs {
+  @media (max-width: #{$xs-max}) {
+    @content;
+  }
+}
+
+// Small devices (large phones)
+@mixin sm {
+  @media (min-width: #{$sm-min}) and (max-width: #{$sm-max}) {
+    @content;
+  }
+}
+
+// Medium devices (tablets)
+@mixin md {
+  @media (min-width: #{$md-min}) and (max-width: #{$md-max}) {
+    @content;
+  }
+}
+
+// Large devices (laptops)
+@mixin lg {
+  @media (min-width: #{$lg-min}) and (max-width: #{$lg-max}) {
+    @content;
+  }
+}
+
+// Extra large devices (desktops)
+@mixin xl {
+  @media (min-width: #{$xl-min}) and (max-width: #{$xl-max}) {
+    @content;
+  }
+}
+
+// XXL devices (large desktops)
+@mixin xxl {
+  @media (min-width: #{$xxl-min}) and (max-width: #{$xxl-max}) {
+    @content;
+  }
+}
+
+// General-purpose custom mixin for a range
+@mixin breakpoint($min: null, $max: null) {
+  @if $min !=null and $max !=null {
+    @media (min-width: #{$min}) and (max-width: #{$max}) {
+      @content;
+    }
+  }
+
+  @else if $min !=null {
+    @media (min-width: #{$min}) {
+      @content;
+    }
+  }
+
+  @else if $max !=null {
+    @media (max-width: #{$max}) {
+      @content;
+    }
+  }
+}
+
+$breakpoints-1: (
+  sm: 575.98px,
+  md: 743.98px,
+  lg: 991.98px,
+  xl: 1199.98px,
+  xxl: 1399.98px
+);
+
+@mixin media($size) {
+  @if map-has-key($breakpoints-1, $size) {
+    @media (max-width: map-get($breakpoints-1, $size)) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,221 @@
+// BREADCRUMB STYLES
+.breadcrumb {
+    width: 100%;
+    padding: 2rem 0;
+    background: transparent;
+    position: relative;
+
+    &--light {
+        background: transparent;
+    }
+
+    &--dark {
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    &__container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 4rem;
+
+        @include media(lg) {
+            padding: 0 3rem;
+        }
+
+        @include media(md) {
+            padding: 0 2.4rem;
+        }
+
+        @include media(sm) {
+            padding: 0 2rem;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        justify-content: flex-start;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+        &:last-child {
+            .breadcrumb__separator {
+                display: none;
+            }
+        }
+    }
+
+    &__link {
+        font-family: $brandon-grotesque;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #666;
+        text-decoration: underline;
+        text-transform: none;
+        letter-spacing: normal;
+        transition: color 0.3s ease;
+        position: relative;
+
+        &:hover {
+            color: #333;
+            text-decoration: none;
+        }
+
+        @include media(md) {
+            font-size: 1.3rem;
+        }
+
+        @include media(sm) {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__current {
+        font-family: $brandon-grotesque;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #333;
+        text-transform: none;
+        letter-spacing: normal;
+
+        @include media(md) {
+            font-size: 1.3rem;
+        }
+
+        @include media(sm) {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__separator {
+        font-family: $brandon-grotesque;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #999;
+        user-select: none;
+        margin: 0;
+
+        @include media(sm) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+// Light theme variant (default for about page)
+.breadcrumb--light {
+    .breadcrumb__link {
+        color: #666;
+
+        &:hover {
+            color: #333;
+        }
+    }
+
+    .breadcrumb__current {
+        color: #333;
+    }
+
+    .breadcrumb__separator {
+        color: #999;
+    }
+}
+
+// Dark theme variant
+.breadcrumb--dark {
+    .breadcrumb__link {
+        color: #ccc;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .breadcrumb__current {
+        color: #fff;
+    }
+
+    .breadcrumb__separator {
+        color: #999;
+    }
+}
+
+// High contrast mode
+@media (prefers-contrast: high) {
+    .breadcrumb {
+        &__link {
+            color: #000;
+
+            &:hover {
+                color: #e7247a;
+                text-decoration: underline;
+            }
+        }
+
+        &__current {
+            color: #000;
+        }
+
+        &__separator {
+            color: #666;
+        }
+    }
+}
+
+// Reduced motion
+@media (prefers-reduced-motion: reduce) {
+    .breadcrumb {
+        &__link {
+            transition: none;
+        }
+    }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+    .breadcrumb {
+        &--light {
+            background: transparent;
+        }
+
+        &__link {
+            color: #ccc;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        &__current {
+            color: #fff;
+        }
+
+        &__separator {
+            color: #999;
+        }
+    }
+}
+
+// Mobile landscape adjustments
+@media (max-width: 768px) and (orientation: landscape) {
+    .breadcrumb {
+        padding: 1.5rem 0;
+
+        &__link,
+        &__current {
+            font-size: 1.1rem;
+        }
+
+        &__separator {
+            font-size: 1.1rem;
+        }
+    }
+}

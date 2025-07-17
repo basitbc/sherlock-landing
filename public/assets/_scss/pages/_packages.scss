@@ -1,0 +1,55 @@
+.package-heading{
+    border: 1px solid black;
+   margin-top: 8rem !important;
+   width: 100vw !important;
+    .buttons{
+        border: 1px solid black;
+        border-radius: 0.8rem;
+        padding: 2rem 4rem;
+        max-height: 6.4rem;
+    }
+}
+.package-detail-images{
+    margin: 3rem 1.6rem 7rem 1.6rem !important;
+    border: 1px solid black !important;
+    .package-image-container{
+        max-height: 66rem;
+    .left-image-container{
+        max-width:69.4rem !important;
+        .left-image{
+            border-radius: 2rem;
+           height: 66rem;
+            object-fit: cover;
+        }
+
+    }
+}
+}
+.package-inclusion{
+    // border: 1px solid black;
+    max-height: 50rem;
+    border-radius: 2rem;
+    padding: 0 2.8rem 2.8rem 2.8rem;
+    overflow: auto;
+     &::-webkit-scrollbar {
+    display: none;
+  }
+ -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.package-exclusion{
+    // border: 1px solid black;
+    // border-radius: 2rem;
+    max-height: 50rem;
+    overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+ -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.trip-plan-section{
+    border: 1px solid black;
+    margin: 5rem 0;
+}

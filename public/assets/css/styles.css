@@ -1,0 +1,1256 @@
+/*!
+*   ___  ___ ___ ___
+*  / __|/ __/ __/ __|
+*  \__ \ (__\__ \__ \
+*  |___/\___|___/___/
+*
+*
+* # Scss Playbook 1.0.0
+*/
+/*
+This file is used to contain all abstracts imports.
+Files inside this folder can contain abstract settings,
+helpers or functions. They have no direct output.
+*/
+/* @font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+body {
+  font-family: "Gilroy", sans-serif;
+}
+
+/*
+This file is used to contain all base imports.
+Files inside this folder can contain global styles used in
+the project.
+*/
+html, body {
+  font-family: "Gilroy", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* @font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../fonts/Gilroy/Gilroy-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../fonts/Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-SemiBoldItalic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/Gilroy/Gilroy-SemiBoldItalic.ttf") format("truetype");
+} */
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.container,
+.container-mb {
+  width: 100% !important;
+  max-width: 144rem !important;
+  padding: 0 9.8% !important;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+.brandon-regular {
+  font-family: "Brandon-Regular";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brandon-medium {
+  font-family: "Brandon-Medium";
+  font-weight: 500;
+  font-style: normal;
+}
+
+.brandon-bold {
+  font-family: "Brandon-Bold";
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.f-s-1 {
+  font-size: 1px;
+}
+
+.f-s-2 {
+  font-size: 2px;
+}
+
+.f-s-3 {
+  font-size: 3px;
+}
+
+.f-s-4 {
+  font-size: 4px;
+}
+
+.f-s-5 {
+  font-size: 5px;
+}
+
+.f-s-6 {
+  font-size: 6px;
+}
+
+.f-s-7 {
+  font-size: 7px;
+}
+
+.f-s-8 {
+  font-size: 8px;
+}
+
+.f-s-9 {
+  font-size: 9px;
+}
+
+.f-s-10 {
+  font-size: 10px;
+}
+
+.f-s-11 {
+  font-size: 11px;
+}
+
+.f-s-12 {
+  font-size: 12px;
+}
+
+.f-s-13 {
+  font-size: 13px;
+}
+
+.f-s-14 {
+  font-size: 14px;
+}
+
+.f-s-15 {
+  font-size: 15px;
+}
+
+.f-s-16 {
+  font-size: 16px;
+}
+
+.f-s-17 {
+  font-size: 17px;
+}
+
+.f-s-18 {
+  font-size: 18px;
+}
+
+.f-s-19 {
+  font-size: 19px;
+}
+
+.f-s-20 {
+  font-size: 20px;
+}
+
+.f-s-21 {
+  font-size: 21px;
+}
+
+.f-s-22 {
+  font-size: 22px;
+}
+
+.f-s-23 {
+  font-size: 23px;
+}
+
+.f-s-24 {
+  font-size: 24px;
+}
+
+.f-s-25 {
+  font-size: 25px;
+}
+
+.f-s-26 {
+  font-size: 26px;
+}
+
+.f-s-27 {
+  font-size: 27px;
+}
+
+.f-s-28 {
+  font-size: 28px;
+}
+
+.f-s-29 {
+  font-size: 29px;
+}
+
+.f-s-30 {
+  font-size: 30px;
+}
+
+.f-s-31 {
+  font-size: 31px;
+}
+
+.f-s-32 {
+  font-size: 32px;
+}
+
+.f-s-33 {
+  font-size: 33px;
+}
+
+.f-s-34 {
+  font-size: 34px;
+}
+
+.f-s-35 {
+  font-size: 35px;
+}
+
+.f-s-36 {
+  font-size: 36px;
+}
+
+.f-s-37 {
+  font-size: 37px;
+}
+
+.f-s-38 {
+  font-size: 38px;
+}
+
+.f-s-39 {
+  font-size: 39px;
+}
+
+.f-s-40 {
+  font-size: 40px;
+}
+
+.f-s-41 {
+  font-size: 41px;
+}
+
+.f-s-42 {
+  font-size: 42px;
+}
+
+.f-s-43 {
+  font-size: 43px;
+}
+
+.f-s-44 {
+  font-size: 44px;
+}
+
+.f-s-45 {
+  font-size: 45px;
+}
+
+.f-s-46 {
+  font-size: 46px;
+}
+
+.f-s-47 {
+  font-size: 47px;
+}
+
+.f-s-48 {
+  font-size: 48px;
+}
+
+.f-s-49 {
+  font-size: 49px;
+}
+
+.f-s-50 {
+  font-size: 50px;
+}
+
+.f-s-51 {
+  font-size: 51px;
+}
+
+.f-s-52 {
+  font-size: 52px;
+}
+
+.f-s-53 {
+  font-size: 53px;
+}
+
+.f-s-54 {
+  font-size: 54px;
+}
+
+.f-s-55 {
+  font-size: 55px;
+}
+
+.f-s-56 {
+  font-size: 56px;
+}
+
+.f-s-57 {
+  font-size: 57px;
+}
+
+.f-s-58 {
+  font-size: 58px;
+}
+
+.f-s-59 {
+  font-size: 59px;
+}
+
+.f-s-60 {
+  font-size: 60px;
+}
+
+.f-s-61 {
+  font-size: 61px;
+}
+
+.f-s-62 {
+  font-size: 62px;
+}
+
+.f-s-63 {
+  font-size: 63px;
+}
+
+.f-s-64 {
+  font-size: 64px;
+}
+
+.f-s-65 {
+  font-size: 65px;
+}
+
+.f-s-66 {
+  font-size: 66px;
+}
+
+.f-s-67 {
+  font-size: 67px;
+}
+
+.f-s-68 {
+  font-size: 68px;
+}
+
+.f-s-69 {
+  font-size: 69px;
+}
+
+.f-s-70 {
+  font-size: 70px;
+}
+
+.f-s-71 {
+  font-size: 71px;
+}
+
+.f-s-72 {
+  font-size: 72px;
+}
+
+.f-s-73 {
+  font-size: 73px;
+}
+
+.f-s-74 {
+  font-size: 74px;
+}
+
+.f-s-75 {
+  font-size: 75px;
+}
+
+.f-s-76 {
+  font-size: 76px;
+}
+
+.f-s-77 {
+  font-size: 77px;
+}
+
+.f-s-78 {
+  font-size: 78px;
+}
+
+.f-s-79 {
+  font-size: 79px;
+}
+
+.f-s-80 {
+  font-size: 80px;
+}
+
+.f-s-81 {
+  font-size: 81px;
+}
+
+.f-s-82 {
+  font-size: 82px;
+}
+
+.f-s-83 {
+  font-size: 83px;
+}
+
+.f-s-84 {
+  font-size: 84px;
+}
+
+.f-s-85 {
+  font-size: 85px;
+}
+
+.f-s-86 {
+  font-size: 86px;
+}
+
+.f-s-87 {
+  font-size: 87px;
+}
+
+.f-s-88 {
+  font-size: 88px;
+}
+
+.f-s-89 {
+  font-size: 89px;
+}
+
+.f-s-90 {
+  font-size: 90px;
+}
+
+.f-s-91 {
+  font-size: 91px;
+}
+
+.f-s-92 {
+  font-size: 92px;
+}
+
+.f-s-93 {
+  font-size: 93px;
+}
+
+.f-s-94 {
+  font-size: 94px;
+}
+
+.f-s-95 {
+  font-size: 95px;
+}
+
+.f-s-96 {
+  font-size: 96px;
+}
+
+.f-s-97 {
+  font-size: 97px;
+}
+
+.f-s-98 {
+  font-size: 98px;
+}
+
+.f-s-99 {
+  font-size: 99px;
+}
+
+.f-s-100 {
+  font-size: 100px;
+}
+
+.lh-1 {
+  line-height: 1px;
+}
+
+.lh-2 {
+  line-height: 2px;
+}
+
+.lh-3 {
+  line-height: 3px;
+}
+
+.lh-4 {
+  line-height: 4px;
+}
+
+.lh-5 {
+  line-height: 5px;
+}
+
+.lh-6 {
+  line-height: 6px;
+}
+
+.lh-7 {
+  line-height: 7px;
+}
+
+.lh-8 {
+  line-height: 8px;
+}
+
+.lh-9 {
+  line-height: 9px;
+}
+
+.lh-10 {
+  line-height: 10px;
+}
+
+.lh-11 {
+  line-height: 11px;
+}
+
+.lh-12 {
+  line-height: 12px;
+}
+
+.lh-13 {
+  line-height: 13px;
+}
+
+.lh-14 {
+  line-height: 14px;
+}
+
+.lh-15 {
+  line-height: 15px;
+}
+
+.lh-16 {
+  line-height: 16px;
+}
+
+.lh-17 {
+  line-height: 17px;
+}
+
+.lh-18 {
+  line-height: 18px;
+}
+
+.lh-19 {
+  line-height: 19px;
+}
+
+.lh-20 {
+  line-height: 20px;
+}
+
+.lh-21 {
+  line-height: 21px;
+}
+
+.lh-22 {
+  line-height: 22px;
+}
+
+.lh-23 {
+  line-height: 23px;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-25 {
+  line-height: 25px;
+}
+
+.lh-26 {
+  line-height: 26px;
+}
+
+.lh-27 {
+  line-height: 27px;
+}
+
+.lh-28 {
+  line-height: 28px;
+}
+
+.lh-29 {
+  line-height: 29px;
+}
+
+.lh-30 {
+  line-height: 30px;
+}
+
+.lh-31 {
+  line-height: 31px;
+}
+
+.lh-32 {
+  line-height: 32px;
+}
+
+.lh-33 {
+  line-height: 33px;
+}
+
+.lh-34 {
+  line-height: 34px;
+}
+
+.lh-35 {
+  line-height: 35px;
+}
+
+.lh-36 {
+  line-height: 36px;
+}
+
+.lh-37 {
+  line-height: 37px;
+}
+
+.lh-38 {
+  line-height: 38px;
+}
+
+.lh-39 {
+  line-height: 39px;
+}
+
+.lh-40 {
+  line-height: 40px;
+}
+
+.lh-41 {
+  line-height: 41px;
+}
+
+.lh-42 {
+  line-height: 42px;
+}
+
+.lh-43 {
+  line-height: 43px;
+}
+
+.lh-44 {
+  line-height: 44px;
+}
+
+.lh-45 {
+  line-height: 45px;
+}
+
+.lh-46 {
+  line-height: 46px;
+}
+
+.lh-47 {
+  line-height: 47px;
+}
+
+.lh-48 {
+  line-height: 48px;
+}
+
+.lh-49 {
+  line-height: 49px;
+}
+
+.lh-50 {
+  line-height: 50px;
+}
+
+.lh-51 {
+  line-height: 51px;
+}
+
+.lh-52 {
+  line-height: 52px;
+}
+
+.lh-53 {
+  line-height: 53px;
+}
+
+.lh-54 {
+  line-height: 54px;
+}
+
+.lh-55 {
+  line-height: 55px;
+}
+
+.lh-56 {
+  line-height: 56px;
+}
+
+.lh-57 {
+  line-height: 57px;
+}
+
+.lh-58 {
+  line-height: 58px;
+}
+
+.lh-59 {
+  line-height: 59px;
+}
+
+.lh-60 {
+  line-height: 60px;
+}
+
+.lh-61 {
+  line-height: 61px;
+}
+
+.lh-62 {
+  line-height: 62px;
+}
+
+.lh-63 {
+  line-height: 63px;
+}
+
+.lh-64 {
+  line-height: 64px;
+}
+
+.lh-65 {
+  line-height: 65px;
+}
+
+.lh-66 {
+  line-height: 66px;
+}
+
+.lh-67 {
+  line-height: 67px;
+}
+
+.lh-68 {
+  line-height: 68px;
+}
+
+.lh-69 {
+  line-height: 69px;
+}
+
+.lh-70 {
+  line-height: 70px;
+}
+
+.lh-71 {
+  line-height: 71px;
+}
+
+.lh-72 {
+  line-height: 72px;
+}
+
+.lh-73 {
+  line-height: 73px;
+}
+
+.lh-74 {
+  line-height: 74px;
+}
+
+.lh-75 {
+  line-height: 75px;
+}
+
+.lh-76 {
+  line-height: 76px;
+}
+
+.lh-77 {
+  line-height: 77px;
+}
+
+.lh-78 {
+  line-height: 78px;
+}
+
+.lh-79 {
+  line-height: 79px;
+}
+
+.lh-80 {
+  line-height: 80px;
+}
+
+.lh-81 {
+  line-height: 81px;
+}
+
+.lh-82 {
+  line-height: 82px;
+}
+
+.lh-83 {
+  line-height: 83px;
+}
+
+.lh-84 {
+  line-height: 84px;
+}
+
+.lh-85 {
+  line-height: 85px;
+}
+
+.lh-86 {
+  line-height: 86px;
+}
+
+.lh-87 {
+  line-height: 87px;
+}
+
+.lh-88 {
+  line-height: 88px;
+}
+
+.lh-89 {
+  line-height: 89px;
+}
+
+.lh-90 {
+  line-height: 90px;
+}
+
+.lh-91 {
+  line-height: 91px;
+}
+
+.lh-92 {
+  line-height: 92px;
+}
+
+.lh-93 {
+  line-height: 93px;
+}
+
+.lh-94 {
+  line-height: 94px;
+}
+
+.lh-95 {
+  line-height: 95px;
+}
+
+.lh-96 {
+  line-height: 96px;
+}
+
+.lh-97 {
+  line-height: 97px;
+}
+
+.lh-98 {
+  line-height: 98px;
+}
+
+.lh-99 {
+  line-height: 99px;
+}
+
+.lh-100 {
+  line-height: 100px;
+}
+
+.op-0 {
+  opacity: 0;
+}
+
+.op-1 {
+  opacity: 0.1;
+}
+
+.op-2 {
+  opacity: 0.2;
+}
+
+.op-3 {
+  opacity: 0.3;
+}
+
+.op-4 {
+  opacity: 0.4;
+}
+
+.op-5 {
+  opacity: 0.5;
+}
+
+.op-6 {
+  opacity: 0.6;
+}
+
+.op-7 {
+  opacity: 0.7;
+}
+
+.op-8 {
+  opacity: 0.8;
+}
+
+.op-9 {
+  opacity: 0.9;
+}
+
+.op-10 {
+  opacity: 1;
+}
+
+.br-10 {
+  border-radius: 1rem;
+}
+
+.br-8 {
+  border-radius: 0.8rem;
+}
+
+.br-4 {
+  border-radius: 0.4rem;
+}
+
+.br-20 {
+  border-radius: 2rem;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.primary {
+  color: #24E1C3;
+}
+
+.black {
+  color: #000000;
+}
+
+.grey-D9D {
+  color: #D9D9D9;
+}
+
+.grey-C0B {
+  color: #C0BFBF;
+}
+
+.grey-7E7 {
+  color: #7E7E7E;
+}
+
+.blue-3B7 {
+  color: #3B7AE6;
+}
+
+.blue-56C {
+  color: #56C1F9;
+}
+
+.pink-EB5 {
+  color: #EB53A2;
+}
+
+.black-1 {
+  color: rgba(23, 23, 23, 0.49);
+}
+
+.black-171 {
+  color: #171717;
+}
+
+.yellow-C0A {
+  color: #C0AC62;
+}
+
+.red-C06 {
+  color: #C06262;
+}
+
+.blue-629 {
+  color: #6293C0;
+}
+
+.pink-C06 {
+  color: #C062A0;
+}
+
+.fs-80-40 {
+  font-size: 8rem;
+  line-height: 11rem;
+}
+
+.fs-64-32 {
+  font-size: 6.4rem;
+  line-height: 7.9rem;
+}
+
+.fs-60-32 {
+  font-size: 6rem;
+  line-height: 7.2rem;
+}
+
+.fs-55-27 {
+  font-size: 5.5rem;
+  line-height: 6.2rem;
+}
+
+.fs-48-32 {
+  font-size: 4.8rem;
+  line-height: 5.2rem;
+}
+
+.fs-40-20 {
+  font-size: 4rem;
+  line-height: 4.9rem;
+}
+
+.fs-32-16 {
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+}
+
+.fs-30-15 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.fs-24-12 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.fs-22-11 {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+.fs-20-10 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.fs-18-9 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.fs-16-8 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.fs-12-6 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.fs-10-5 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.primary-btn {
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 19px;
+  height: auto;
+  border-radius: 3rem;
+  padding: 1rem 3rem;
+  background-color: #24E1C3;
+  border: 1px solid #24E1C3;
+  cursor: pointer;
+}
+.primary-btn:active, .primary-btn:active:focus, .primary-btn:focus, .primary-btn:hover {
+  background-color: #24E1C3;
+  border: 1px solid #24E1C3;
+  outline: none;
+  box-shadow: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.primary-btn:not(.disabled), .primary-btn:not(.disabled):active, .primary-btn:not(:disabled) {
+  background-color: #24E1C3;
+  border: 1px solid #24E1C3;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 24px;
+  height: auto;
+  border-radius: 4px;
+  padding: 0.7rem 1.4rem;
+  background-color: #000000;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+.secondary-btn:active, .secondary-btn:active:focus, .secondary-btn:focus, .secondary-btn:hover {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border: 1px solid #000000 !important;
+  outline: none;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.secondary-btn:not(.disabled), .secondary-btn:not(.disabled):active, .secondary-btn:not(:disabled) {
+  border: 1px solid #000000 !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.secondary-btn-white {
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000000;
+  line-height: 24px;
+  height: auto;
+  border-radius: 4px;
+  padding: 0.7rem 1.4rem;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+.secondary-btn-white:active, .secondary-btn-white:active:focus, .secondary-btn-white:focus, .secondary-btn-white:hover {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  outline: none;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.secondary-btn-white:not(.disabled), .secondary-btn-white:not(.disabled):active, .secondary-btn-white:not(:disabled) {
+  border: 1px solid #ffffff !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.card-btn {
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 12px;
+  height: auto;
+  border-radius: 2rem;
+  padding: 0.7rem 5rem;
+  background-color: rgba(23, 23, 23, 0.49);
+  border: 1px solid rgba(23, 23, 23, 0.49);
+  cursor: pointer;
+}
+.card-btn:active, .card-btn:active:focus, .card-btn:focus, .card-btn:hover {
+  color: #000000 !important;
+  background-color: rgba(23, 23, 23, 0.49) !important;
+  border: 1px solid transparent !important;
+  outline: none;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.card-btn:not(.disabled), .card-btn:not(.disabled):active, .card-btn:not(:disabled) {
+  background-color: rgba(23, 23, 23, 0.49) !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+/*
+This file is used to contain all component imports.
+Files inside this folder should contain all styles relating
+to a reusable component.
+*/

@@ -1,0 +1,844 @@
+[
+    {
+        "id": "1",
+        "packageName": "Kashmir Honeymoon Paradise",
+        "duration": "5 Nights 6 Days",
+        "location": "Kashmir",
+        "price": "19999",
+        "images": [
+            {
+                "src": "/assets/images/packages/couple-snow.jpg",
+                "caption": "Couple enjoying winter activities in Kashmir's fresh snowfall"
+            },
+            {
+                "src": "/assets/images/packages/sukoon_Couple.jpg",
+                "caption": "Luxury candlelit dinner on Dal Lake houseboat rooftop with mountain views"
+            },
+            {
+                "src": "/assets/images/packages/khyber-snow-swimmingpool.webp",
+                "caption": "Khyber Hotel's heated swimming pool during Kashmir's winter season"
+            },
+            {
+                "src": "/assets/images/packages/couple-snowscooter.webp",
+                "caption": "Snow scooter ride through Gulmarg's snow-covered slopes"
+            },
+            {
+                "src": "/assets/images/packages/couple-fishing.jpg",
+                "caption": "Traditional fishing experience in Kashmir's mountain lakes"
+            },
+            {
+                "src": "/assets/images/packages/couple-enjoying.jpg",
+                "caption": "Snow sledging adventure on Gulmarg's winter slopes"
+            },
+            {
+                "src": "/assets/images/packages/couple-trekking.jpg",
+                "caption": "Guided trekking through Kashmir's scenic mountain trails"
+            }
+        ],
+        "bgImage": "/assets/images/packages/couple-snow.jpg",
+        "mealsPlan": "MAP (Breakfast & Dinner)",
+        "vehicle": "Private AC Sedan/SUV",
+        "pickAndDrop": "Srinagar Airport",
+        "description": "Experience the romance of Kashmir with this specially curated honeymoon package. Stay in luxurious houseboats on Dal Lake, enjoy romantic Shikara rides at sunset, and explore the meadows of Gulmarg and valleys of Pahalgam. This package includes special honeymoon arrangements like flower bed decoration, candlelight dinner, and complimentary cake. Perfect for couples seeking a blend of adventure, romance, and scenic beauty in the paradise on earth.",
+        "tourPlan": [
+            {
+                "day": "1",
+                "title": "Arrival in Srinagar - Welcome to Paradise",
+                "description": "Arrive at Srinagar Airport where our representative will receive you. Transfer to deluxe houseboat on Dal Lake. After check-in, enjoy welcome drinks and relax. Evening romantic Shikara ride on Dal Lake with photo opportunities. Special honeymoon cake and flower bed decoration.",
+                "note": "Complimentary traditional Kashmiri Kahwa tea and local snacks"
+            },
+            {
+                "day": "2",
+                "title": "Srinagar - Mughal Gardens & Local Sightseeing",
+                "description": "After breakfast, visit the famous Mughal Gardens - Nishat Bagh (Garden of Pleasure), Shalimar Bagh (Abode of Love), and Chashme Shahi. Visit Shankaracharya Temple for panoramic views. Afternoon visit to Pari Mahal and Botanical Garden. Evening free for shopping in local markets.",
+                "note": "Photo shoot opportunity in traditional Kashmiri attire at Mughal Gardens"
+            },
+            {
+                "day": "3",
+                "title": "Srinagar to Gulmarg - Meadow of Flowers (52 km)",
+                "description": "Early breakfast and drive to Gulmarg. Enroute visit Tangmarg town. In Gulmarg, take the famous Gondola Cable Car ride (tickets on direct payment). Phase 1: Gulmarg to Kongdoori, Phase 2: Kongdoori to Apharwat Peak. Enjoy activities like pony rides, photography. Check into hotel.",
+                "note": "In winter, enjoy snow activities like skiing, snowboarding (additional cost)"
+            },
+            {
+                "day": "4",
+                "title": "Gulmarg to Pahalgam - Valley of Shepherds (140 km)",
+                "description": "After breakfast, check out and drive to Pahalgam via Pampore (Saffron fields). Enroute visit Awantipora ruins and Anantnag sulphur springs. On arrival in Pahalgam, check into hotel. Evening at leisure to explore the local market or enjoy the Lidder River view.",
+                "note": "Stop at apple orchards for photography (seasonal)"
+            },
+            {
+                "day": "5",
+                "title": "Pahalgam Sightseeing - Betaab & Aru Valley",
+                "description": "Post breakfast, visit Betaab Valley (famous for Bollywood shoots), Aru Valley (scenic village), and Chandanwari (starting point of Amarnath Yatra). Enjoy pony rides or river rafting in Lidder River (optional). Return to hotel for overnight stay.",
+                "note": "Local transport for valleys on direct payment basis"
+            },
+            {
+                "day": "6",
+                "title": "Pahalgam to Srinagar Airport - Departure (90 km)",
+                "description": "After breakfast, check out and drive back to Srinagar. Enroute last minute shopping for dry fruits, saffron, and handicrafts. Transfer to Srinagar Airport for your onward journey with sweet memories of Kashmir honeymoon.",
+                "note": "Keep 3 hours buffer time for airport security check"
+            }
+        ],
+        "inclusions": [
+            {
+                "title": "Accommodation",
+                "description": "Accommodation as per itinerary in selected hotels/houseboats",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMTNIMTdWMTlIN1YxM1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA2VjEwSDEwVjZIOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNCA2VjEwSDE1VjZIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTkgN1YxOUgyMFY3SDE5WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01IDdWMTlINFY3SDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "bed"
+            },
+            {
+                "title": "Meals",
+                "description": "MAP (Breakfast & Dinner)",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgMTFIMjFWMjBBMSAxIDAgMCAxIDIwIDIxSDRBMSAxIDAgMCAxIDMgMjBWMTFaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTFWN0EzIDMgMCAwIDEgOCA0SDE2QTMgMyAwIDAgMSAxOSA3VjExIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDRWMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "utensils"
+            },
+            {
+                "title": "Transportation",
+                "description": "Private AC Sedan/SUV for sightseeing and transfers",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEwVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTcgMTZIMTdWMTlIN1YxNloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjEgMTBIMTlMMTggNkg2TDUgMTBIM1YxMUg1VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjE2IiByPSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                "icon": "car"
+            },
+            {
+                "title": "Transfers",
+                "description": "Srinagar Airport pickup and drop",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIxIDEySDE5TDE4IDhINkw1IDEySDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgNy41VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDcuNVYxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5Z29uIHBvaW50cz0iMTEsMyAxMi41LDYgMTMuNSwzIDExLDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "plane"
+            },
+            {
+                "title": "Guide Services",
+                "description": "Professional local guide and driver",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDIxVjE5QTQgNCAwIDAgMCAxNiAxNUg4QTQgNCAwIDAgMCA0IDE5VjIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "guide"
+            },
+            {
+                "title": "Support",
+                "description": "24/7 customer support during the trip",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyQTkgOSAwIDAgMSAzIDEyQTkgOSAwIDAgMSAyMSAxMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgOEE0IDQgMCAwIDEgMTYgMTJBNCA0IDAgMCAxIDEyIDE2VjEySDgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "support"
+            }
+        ],
+        "exclusions": [
+            "Airfare/train fare to and from destination",
+            "Personal expenses like laundry, telephone, tips, etc.",
+            "Optional activities and adventures",
+            "Travel insurance",
+            "Monument entrance fees",
+            "Camera fees at monuments",
+            "Anything not mentioned in inclusions",
+            "GST as applicable"
+        ]
+    },
+    {
+        "id": "2",
+        "packageName": "Kashmir Family Adventure",
+        "duration": "6 Nights 7 Days",
+        "location": "Kashmir",
+        "price": "12999",
+        "bgImage": "/assets/images/packages/sukoon_Couple.jpg",
+        "mealsPlan": "MAP (Breakfast & Dinner)",
+        "vehicle": "Innova/Traveller for families",
+        "pickAndDrop": "Srinagar Airport/Railway Station",
+        "description": "A perfect family getaway to explore the best of Kashmir. This package covers all major attractions including the golden meadows of Sonmarg, the flower valleys of Gulmarg, and the scenic beauty of Pahalgam. Suitable for all age groups with comfortable stays and family-friendly activities. Experience the warmth of Kashmiri hospitality while creating unforgettable family memories.",
+        "images": [
+            {
+                "src": "/assets/images/packages/family-ladscape.jpg",
+                "caption": "Family gathering around bonfire with Kashmir's scenic landscape backdrop"
+            },
+            {
+                "src": "/assets/images/packages/family-khyber.avif",
+                "caption": "Family breakfast at Khyber Hotel with mountain views"
+            },
+            {
+                "src": "/assets/images/packages/family.webp",
+                "caption": "Family enjoying snow sledging activities in Kashmir"
+            },
+            {
+                "src": "/assets/images/packages/snow-trek.jpg",
+                "caption": "Family snow trekking adventure through Kashmir's winter trails"
+            },
+            {
+                "src": "/assets/images/packages/khyber-room-family.webp",
+                "caption": "Family accommodation at Khyber Hotel with modern amenities"
+            },
+            {
+                "src": "/assets/images/packages/couple-trekking.jpg",
+                "caption": "Guided trekking experience through Kashmir's mountain paths"
+            }
+        ],
+        "tourPlan": [
+            {
+                "day": "1",
+                "title": "Arrival Srinagar - The Lake City",
+                "description": "Welcome at Srinagar Airport. Transfer to hotel/houseboat. After lunch, enjoy Shikara ride on Dal Lake visiting floating gardens and handicraft shops. Evening visit to Boulevard Road and local market.",
+                "note": "Early check-in subject to availability"
+            },
+            {
+                "day": "2",
+                "title": "Srinagar - Sonmarg Day Trip (80 km one way)",
+                "description": "Early breakfast and full day excursion to Sonmarg \"Meadow of Gold\". Enroute visit Gagangir tourist spot. At Sonmarg, enjoy the view of Thajiwas Glacier. Optional: Pony ride to glacier, sledge rides. Return to Srinagar by evening.",
+                "note": "Carry warm clothes as temperature drops near glacier"
+            },
+            {
+                "day": "3",
+                "title": "Srinagar to Gulmarg (52 km)",
+                "description": "After breakfast, proceed to Gulmarg. Day free to explore the meadows. Options include Golf course (highest in the world), Gondola ride, St. Marys Church, and Maharani Temple. Overnight in Gulmarg.",
+                "note": "Book Gondola tickets in advance during peak season"
+            },
+            {
+                "day": "4",
+                "title": "Gulmarg - Full Day Activities",
+                "description": "Full day to enjoy Gulmarg. Take Phase 2 Gondola to Apharwat. Adventure activities like skiing (winter), mountain biking, trekking to Alpather Lake (summer). Kids can enjoy pony rides and sledging.",
+                "note": "Activities depend on weather conditions"
+            },
+            {
+                "day": "5",
+                "title": "Gulmarg to Pahalgam (140 km)",
+                "description": "Drive to Pahalgam after breakfast. Enroute saffron fields at Pampore, Awantipora ruins. Check in at Pahalgam. Evening walk along Lidder River or explore the main market.",
+                "note": "Try local bakery items and kehwa at Pahalgam market"
+            },
+            {
+                "day": "6",
+                "title": "Pahalgam Local Sightseeing",
+                "description": "Visit Aru Valley (15 km), Betaab Valley (15 km), and Chandanwari (16 km). Optional activities: River rafting, pony rides, and nature walks. Afternoon free for leisure.",
+                "note": "Local taxi union vehicles required for valley visits"
+            },
+            {
+                "day": "7",
+                "title": "Pahalgam - Srinagar - Departure",
+                "description": "Morning drive back to Srinagar. Visit Hazratbal Shrine if time permits. Shopping for carpets, shawls, dry fruits. Transfer to airport/station for departure.",
+                "note": "Keep buffer time for traffic and security checks"
+            }
+        ],
+        "inclusions": [
+            {
+                "title": "Accommodation",
+                "description": "Accommodation as per itinerary in selected hotels/houseboats",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMTNIMTdWMTlIN1YxM1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA2VjEwSDEwVjZIOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNCA2VjEwSDE1VjZIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTkgN1YxOUgyMFY3SDE5WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01IDdWMTlINFY3SDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "bed"
+            },
+            {
+                "title": "Meals",
+                "description": "MAP (Breakfast & Dinner)",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgMTFIMjFWMjBBMSAxIDAgMCAxIDIwIDIxSDRBMSAxIDAgMCAxIDMgMjBWMTFaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTFWN0EzIDMgMCAwIDEgOCA0SDE2QTMgMyAwIDAgMSAxOSA3VjExIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDRWMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "utensils"
+            },
+            {
+                "title": "Transportation",
+                "description": "Private AC Sedan/SUV for sightseeing and transfers",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEwVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTcgMTZIMTdWMTlIN1YxNloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjEgMTBIMTlMMTggNkg2TDUgMTBIM1YxMUg1VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjE2IiByPSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                "icon": "car"
+            },
+            {
+                "title": "Transfers",
+                "description": "Srinagar Airport pickup and drop",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIxIDEySDE5TDE4IDhINkw1IDEySDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgNy41VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDcuNVYxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5Z29uIHBvaW50cz0iMTEsMyAxMi41LDYgMTMuNSwzIDExLDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "plane"
+            },
+            {
+                "title": "Guide Services",
+                "description": "Professional local guide and driver",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDIxVjE5QTQgNCAwIDAgMCAxNiAxNUg4QTQgNCAwIDAgMCA0IDE5VjIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "guide"
+            },
+            {
+                "title": "Support",
+                "description": "24/7 customer support during the trip",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyQTkgOSAwIDAgMSAzIDEyQTkgOSAwIDAgMSAyMSAxMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgOEE0IDQgMCAwIDEgMTYgMTJBNCA0IDAgMCAxIDEyIDE2VjEySDgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "support"
+            }
+        ],
+        "exclusions": [
+            "Airfare/train fare to and from destination",
+            "Personal expenses like laundry, telephone, tips, etc.",
+            "Optional activities and adventures",
+            "Travel insurance",
+            "Monument entrance fees",
+            "Camera fees at monuments",
+            "Anything not mentioned in inclusions",
+            "GST as applicable"
+        ]
+    },
+    {
+        "id": "5",
+        "packageName": "Kashmir Luxury Retreat",
+        "duration": "5 Nights 6 Days",
+        "location": "Kashmir",
+        "price": "29999",
+        "bgImage": "/assets/images/packages/family-kashmir.jpg",
+        "mealsPlan": "MAP (Breakfast & Dinner)",
+        "vehicle": "Luxury SUV",
+        "pickAndDrop": "Srinagar Airport with Meet & Assist",
+        "description": "Indulge in the finest Kashmir has to offer with this luxury package. Stay at 5-star properties including Vivanta Dal View, The Khyber Gulmarg, and luxury houseboats. Enjoy private Shikara rides, exclusive dining experiences, spa treatments, and personalized services throughout your journey. Perfect for those seeking comfort and elegance.",
+        "images": [
+            {
+                "src": "/assets/images/packages/family-ladscape.jpg",
+                "caption": "Family gathering around bonfire with Kashmir's scenic landscape backdrop"
+            },
+            {
+                "src": "/assets/images/packages/sukoon_Couple.jpg",
+                "caption": "Luxury candlelit dinner on Dal Lake houseboat rooftop with mountain views"
+            },
+            {
+                "src": "/assets/images/packages/family-khyber.avif",
+                "caption": "Family breakfast at Khyber Hotel with mountain views"
+            },
+            {
+                "src": "/assets/images/packages/couple-snowscooter.webp",
+                "caption": "Snow scooter ride through Gulmarg's snow-covered slopes"
+            },
+            {
+                "src": "/assets/images/packages/couple-fishing.jpg",
+                "caption": "Traditional fishing experience in Kashmir's mountain lakes"
+            },
+            {
+                "src": "/assets/images/packages/couple-enjoying.jpg",
+                "caption": "Snow sledging adventure on Gulmarg's winter slopes"
+            },
+            {
+                "src": "/assets/images/packages/couple-trekking.jpg",
+                "caption": "Guided trekking through Kashmir's scenic mountain trails"
+            }
+        ],
+        "tourPlan": [
+            {
+                "day": "1",
+                "title": "Royal Welcome to Srinagar",
+                "description": "VIP arrival at Srinagar Airport. Transfer to luxury houseboat with traditional welcome. High tea on private deck. Evening private Shikara with live music. Gourmet dinner onboard.",
+                "note": "Complimentary spa voucher and welcome amenities"
+            },
+            {
+                "day": "2",
+                "title": "Exclusive Srinagar Experience",
+                "description": "Private guided tour of Mughal Gardens with historian. Exclusive access to Pari Mahal. Gourmet lunch at heritage property. Afternoon spa treatment. Sunset cocktails at exclusive location.",
+                "note": "Professional photographer available on request"
+            },
+            {
+                "day": "3",
+                "title": "Srinagar to Gulmarg - Alpine Luxury",
+                "description": "Scenic drive to Gulmarg. Check into The Khyber or similar 5-star resort. Private Gondola arrangement. Afternoon at leisure - spa, golf, or nature walks. Fine dining experience.",
+                "note": "Ski butler service available in winter"
+            },
+            {
+                "day": "4",
+                "title": "Gulmarg to Pahalgam - Valley Resort",
+                "description": "Leisurely breakfast and drive to Pahalgam. Check into luxury resort. Private river-side lunch setup. Afternoon at leisure. Bonfire and barbecue dinner.",
+                "note": "Helicopter services available for aerial tours"
+            },
+            {
+                "day": "5",
+                "title": "Pahalgam - Exclusive Experiences",
+                "description": "Private vehicle for valley tours. Gourmet picnic lunch in scenic location. Exclusive fishing experience (seasonal). Evening cultural performance at resort.",
+                "note": "Customized activities based on preferences"
+            },
+            {
+                "day": "6",
+                "title": "Farewell with Memories",
+                "description": "Relaxed morning. Spa treatment or golf. Farewell lunch. Private transfer to airport with personal shopping assistant if required.",
+                "note": "Late checkout complimentary"
+            }
+        ],
+        "inclusions": [
+            {
+                "title": "Accommodation",
+                "description": "Accommodation as per itinerary in selected hotels/houseboats",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMTNIMTdWMTlIN1YxM1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA2VjEwSDEwVjZIOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNCA2VjEwSDE1VjZIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTkgN1YxOUgyMFY3SDE5WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01IDdWMTlINFY3SDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "bed"
+            },
+            {
+                "title": "Meals",
+                "description": "MAP (Breakfast & Dinner)",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgMTFIMjFWMjBBMSAxIDAgMCAxIDIwIDIxSDRBMSAxIDAgMCAxIDMgMjBWMTFaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTFWN0EzIDMgMCAwIDEgOCA0SDE2QTMgMyAwIDAgMSAxOSA3VjExIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDRWMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "utensils"
+            },
+            {
+                "title": "Transportation",
+                "description": "Private AC Sedan/SUV for sightseeing and transfers",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEwVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTcgMTZIMTdWMTlIN1YxNloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjEgMTBIMTlMMTggNkg2TDUgMTBIM1YxMUg1VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjE2IiByPSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                "icon": "car"
+            },
+            {
+                "title": "Transfers",
+                "description": "Srinagar Airport pickup and drop",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIxIDEySDE5TDE4IDhINkw1IDEySDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgNy41VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDcuNVYxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5Z29uIHBvaW50cz0iMTEsMyAxMi41LDYgMTMuNSwzIDExLDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "plane"
+            },
+            {
+                "title": "Guide Services",
+                "description": "Professional local guide and driver",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDIxVjE5QTQgNCAwIDAgMCAxNiAxNUg4QTQgNCAwIDAgMCA0IDE5VjIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "guide"
+            },
+            {
+                "title": "Support",
+                "description": "24/7 customer support during the trip",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyQTkgOSAwIDAgMSAzIDEyQTkgOSAwIDAgMSAyMSAxMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgOEE0IDQgMCAwIDEgMTYgMTJBNCA0IDAgMCAxIDEyIDE2VjEySDgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "support"
+            }
+        ],
+        "exclusions": [
+            "Airfare/train fare to and from destination",
+            "Personal expenses like laundry, telephone, tips, etc.",
+            "Optional activities and adventures",
+            "Travel insurance",
+            "Monument entrance fees",
+            "Camera fees at monuments",
+            "Anything not mentioned in inclusions",
+            "GST as applicable"
+        ]
+    },
+    {
+        "id": "3",
+        "packageName": "Kashmir Standard Explorer",
+        "duration": "4 Nights 5 Days",
+        "location": "Kashmir",
+        "price": "18999",
+        "bgImage": "/assets/images/packages/rafting-group.jpg",
+        "mealsPlan": "MAP (Breakfast & Dinner)",
+        "vehicle": "Private AC Sedan/SUV",
+        "pickAndDrop": "Srinagar Airport/Railway Station",
+        "description": "A well-balanced Kashmir tour package designed for comfortable travel and comprehensive sightseeing. Stay in quality 3-star hotels with modern amenities while exploring all major attractions with dedicated transportation. This package offers excellent value with professional service, making it perfect for families, couples, and leisure travelers seeking a memorable Kashmir experience.",
+        "images": [
+            {
+                "src": "/assets/images/packages/Kashmir-Family-Gulmarg.jpg",
+                "caption": "Family skiing adventure on Gulmarg's snowy slopes"
+            },
+            {
+                "src": "/assets/images/packages/river-stones.jpg",
+                "caption": "Crystal clear mountain river flowing through Kashmir valley"
+            },
+            {
+                "src": "/assets/images/packages/vegetable-market.jpg",
+                "caption": "Local vegetable market showcasing Kashmir's fresh produce"
+            },
+            {
+                "src": "/assets/images/packages/rafting-group.jpg",
+                "caption": "Water rafting through rivers of kashmir"
+            },
+            {
+                "src": "/assets/images/packages/gurez.jpg",
+                "caption": "Scenic mountain landscape of Gurez Valley in Kashmir"
+            }
+        ],
+        "tourPlan": [
+            {
+                "day": "1",
+                "title": "Arrival Srinagar - Welcome to Paradise",
+                "description": "Arrival at Srinagar Airport/Railway Station. Meet and greet by our representative. Transfer to hotel and check-in. After refreshment, enjoy a relaxing Shikara ride on Dal Lake with complimentary tea/kahwa. Evening stroll at Boulevard Road for shopping and local experiences.",
+                "note": "Complimentary welcome drink and Kashmir dry fruits on arrival"
+            },
+            {
+                "day": "2",
+                "title": "Srinagar - Gulmarg - Srinagar (The Meadow of Flowers)",
+                "description": "After breakfast, proceed to Gulmarg (52 km, 2 hours drive). Enjoy the scenic beauty and visit the famous Gulmarg Golf Course. Optional Gondola ride to Khilanmarg (Phase 1) for stunning mountain views. Explore the meadows and enjoy pony rides. Return to Srinagar by evening.",
+                "note": "Gondola tickets and adventure activities available at additional cost"
+            },
+            {
+                "day": "3",
+                "title": "Srinagar - Pahalgam (Valley of Shepherds)",
+                "description": "After breakfast, check out and drive to Pahalgam (95 km, 3 hours). Enroute visit the famous Saffron fields at Pampore and Avantipur ruins. Check into hotel at Pahalgam. Evening free to explore the main market and Lidder River banks.",
+                "note": "Photography stops included with scenic viewpoints"
+            },
+            {
+                "day": "4",
+                "title": "Pahalgam Local Sightseeing",
+                "description": "After breakfast, proceed for local sightseeing of Pahalgam. Visit Aru Valley, Betaab Valley, and Chandanwari (subject to weather conditions). Enjoy horse riding and explore the pristine natural beauty. Return to hotel for overnight stay.",
+                "note": "All valley visits included with vehicle transfers"
+            },
+            {
+                "day": "5",
+                "title": "Pahalgam - Srinagar - Departure",
+                "description": "After breakfast, check out and drive back to Srinagar. Visit Shankaracharya Temple for panoramic city views. Last-minute shopping at Lal Chowk. Transfer to Airport/Railway Station for departure with sweet memories of Kashmir.",
+                "note": "Departure assistance and complimentary mineral water for journey"
+            }
+        ],
+        "inclusions": [
+            {
+                "title": "Accommodation",
+                "description": "Accommodation as per itinerary in selected hotels/houseboats",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMTNIMTdWMTlIN1YxM1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA2VjEwSDEwVjZIOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNCA2VjEwSDE1VjZIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTkgN1YxOUgyMFY3SDE5WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01IDdWMTlINFY3SDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "bed"
+            },
+            {
+                "title": "Meals",
+                "description": "MAP (Breakfast & Dinner)",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgMTFIMjFWMjBBMSAxIDAgMCAxIDIwIDIxSDRBMSAxIDAgMCAxIDMgMjBWMTFaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTFWN0EzIDMgMCAwIDEgOCA0SDE2QTMgMyAwIDAgMSAxOSA3VjExIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDRWMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "utensils"
+            },
+            {
+                "title": "Transportation",
+                "description": "Private AC Sedan/SUV for sightseeing and transfers",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEwVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTcgMTZIMTdWMTlIN1YxNloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjEgMTBIMTlMMTggNkg2TDUgMTBIM1YxMUg1VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjE2IiByPSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                "icon": "car"
+            },
+            {
+                "title": "Transfers",
+                "description": "Srinagar Airport pickup and drop",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIxIDEySDE5TDE4IDhINkw1IDEySDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgNy41VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDcuNVYxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5Z29uIHBvaW50cz0iMTEsMyAxMi41LDYgMTMuNSwzIDExLDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "plane"
+            },
+            {
+                "title": "Guide Services",
+                "description": "Professional local guide and driver",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDIxVjE5QTQgNCAwIDAgMCAxNiAxNUg4QTQgNCAwIDAgMCA0IDE5VjIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "guide"
+            },
+            {
+                "title": "Support",
+                "description": "24/7 customer support during the trip",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyQTkgOSAwIDAgMSAzIDEyQTkgOSAwIDAgMSAyMSAxMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgOEE0IDQgMCAwIDEgMTYgMTJBNCA0IDAgMCAxIDEyIDE2VjEySDgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "support"
+            }
+        ],
+        "exclusions": [
+            "Airfare/train tickets",
+            "Gondola rides and adventure activities",
+            "Personal expenses and tips",
+            "Travel insurance",
+            "Anything not mentioned in inclusions"
+        ]
+    },
+    {
+        "id": "4",
+        "packageName": "Ladakh Leh Adventure Expedition",
+        "duration": "7 Nights 8 Days",
+        "location": "Kashmir",
+        "price": "12000",
+        "bgImage": "/assets/images/packages/pengong.png",
+        "mealsPlan": "MAP",
+        "vehicle": "Innova/XUV",
+        "pickAndDrop": "Leh Airport",
+        "description": "An ultimate Ladakh adventure covering the most scenic high-altitude destinations. From the sand dunes of Nubra Valley to the changing colors of Pangong Lake and the serene Tso Moriri, experience the raw beauty of the Himalayas. This package includes acclimatization time and covers all major monasteries and viewpoints of Ladakh.",
+        "images": [
+            {
+                "src": "/assets/images/packages/pengong.png",
+                "caption": "Pangong Lake's pristine blue waters in Ladakh's high altitude desert"
+            },
+            {
+                "src": "/assets/images/packages/bike ride ladakh.jpg",
+                "caption": "Friends on motorcycle adventure through Ladakh's mountain highways"
+            },
+            {
+                "src": "/assets/images/packages/ladakh-monk.jpg",
+                "caption": "Buddhist monk at traditional monastery in Ladakh region"
+            },
+            {
+                "src": "/assets/images/packages/khardunglapass.jpg",
+                "caption": "Tourists at Khardung La Pass, one of the world's highest motorable roads"
+            },
+            {
+                "src": "/assets/images/packages/ladakh.jpg",
+                "caption": "High-altitude lake surrounded by Ladakh's barren mountain landscape"
+            }
+        ],
+        "tourPlan": [
+            {
+                "day": "1",
+                "title": "Arrival in Leh - Acclimatization",
+                "description": "Arrive at Leh Airport (11,500 ft). Transfer to hotel. Complete rest for acclimatization. Evening walk in Leh Market if feeling comfortable. Light dinner recommended.",
+                "note": "Drink lots of water, avoid alcohol and smoking"
+            },
+            {
+                "day": "2",
+                "title": "Leh Local Sightseeing",
+                "description": "Visit Shey Palace, Thiksey Monastery, Hemis Monastery (largest in Ladakh), and Stok Palace Museum. Evening visit to Shanti Stupa for sunset views. Return to hotel.",
+                "note": "Start slow, don't exert much on first sightseeing day"
+            },
+            {
+                "day": "3",
+                "title": "Leh to Nubra Valley via Khardung La (120 km)",
+                "description": "Early departure crossing Khardung La Pass (18,380 ft) - World's highest motorable road. Reach Nubra Valley, check into camps. Evening camel safari on double-humped Bactrian camels at Hunder sand dunes.",
+                "note": "Carry Diamox and warm clothes for high passes"
+            },
+            {
+                "day": "4",
+                "title": "Nubra to Pangong Lake via Shyok (180 km)",
+                "description": "Drive along Shyok River route to Pangong Tso. The lake extends from India to Tibet. Enjoy the changing colors of the lake. Overnight in camps near the lake.",
+                "note": "Limited facilities at Pangong, carry essentials"
+            },
+            {
+                "day": "5",
+                "title": "Pangong to Tso Moriri (230 km)",
+                "description": "Early start to Tso Moriri via Mahe Bridge. Visit Chumathang hot springs enroute. Reach Tso Moriri - high altitude lake with diverse birdlife. Stay at Korzok village.",
+                "note": "Long driving day through remote areas"
+            },
+            {
+                "day": "6",
+                "title": "Tso Moriri to Leh (240 km)",
+                "description": "Drive back to Leh via Taglang La Pass (17,582 ft). Photo stops at various points. Reach Leh by evening. Rest at hotel.",
+                "note": "Another long drive, start early"
+            },
+            {
+                "day": "7",
+                "title": "Leh - Alchi - Likir - Leh (70 km round trip)",
+                "description": "Day excursion to Alchi Monastery (1000 years old) and Likir Monastery. Visit Magnetic Hill and Indus-Zanskar confluence at Nimmu. Return to Leh.",
+                "note": "Last day for shopping in Leh market"
+            },
+            {
+                "day": "8",
+                "title": "Departure from Leh",
+                "description": "Transfer to Leh Airport for departure. End of Ladakh adventure.",
+                "note": "Check weather for flight schedules"
+            }
+        ],
+        "inclusions": [
+            {
+                "title": "Accommodation",
+                "description": "Accommodation as per itinerary in selected hotels/houseboats",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMTNIMTdWMTlIN1YxM1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA2VjEwSDEwVjZIOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNCA2VjEwSDE1VjZIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTkgN1YxOUgyMFY3SDE5WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01IDdWMTlINFY3SDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "bed"
+            },
+            {
+                "title": "Meals",
+                "description": "MAP (Breakfast & Dinner)",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgMTFIMjFWMjBBMSAxIDAgMCAxIDIwIDIxSDRBMSAxIDAgMCAxIDMgMjBWMTFaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTFWN0EzIDMgMCAwIDEgOCA0SDE2QTMgMyAwIDAgMSAxOSA3VjExIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDRWMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "utensils"
+            },
+            {
+                "title": "Transportation",
+                "description": "Private AC Sedan/SUV for sightseeing and transfers",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEwVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTcgMTZIMTdWMTlIN1YxNloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjEgMTBIMTlMMTggNkg2TDUgMTBIM1YxMUg1VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjE2IiByPSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                "icon": "car"
+            },
+            {
+                "title": "Transfers",
+                "description": "Srinagar Airport pickup and drop",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIxIDEySDE5TDE4IDhINkw1IDEySDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgNy41VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDcuNVYxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5Z29uIHBvaW50cz0iMTEsMyAxMi41LDYgMTMuNSwzIDExLDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "plane"
+            },
+            {
+                "title": "Guide Services",
+                "description": "Professional local guide and driver",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDIxVjE5QTQgNCAwIDAgMCAxNiAxNUg4QTQgNCAwIDAgMCA0IDE5VjIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "guide"
+            },
+            {
+                "title": "Support",
+                "description": "24/7 customer support during the trip",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyQTkgOSAwIDAgMSAzIDEyQTkgOSAwIDAgMSAyMSAxMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgOEE0IDQgMCAwIDEgMTYgMTJBNCA0IDAgMCAxIDEyIDE2VjEySDgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "support"
+            }
+        ],
+        "exclusions": [
+            "Airfare/train tickets",
+            "Gondola rides and adventure activities",
+            "Personal expenses and tips",
+            "Travel insurance",
+            "Anything not mentioned in inclusions"
+        ]
+    },
+    {
+        "id": "6",
+        "packageName": "Kashmir Spiritual Journey",
+        "duration": "4 Nights 5 Days",
+        "location": "Kashmir",
+        "price": "18500",
+        "bgImage": "/assets/images/packages/veshnodevi.jpg",
+        "mealsPlan": "MAP",
+        "vehicle": "AC Innova/AC Tempo Traveller",
+        "pickAndDrop": "Jammu Railway Station",
+        "description": "A spiritual tour combining the holy shrine of Vaishno Devi with the natural beauty of Kashmir. Perfect for pilgrims and families seeking divine blessings along with scenic experiences. The package includes VIP darshan arrangements, comfortable stays, and visits to other religious sites in Kashmir.",
+        "images": [
+            {
+                "src": "/assets/images/packages/veshnodevi.jpg",
+                "caption": "Vaishno Devi temple pilgrimage site in Jammu's Trikuta mountains"
+            },
+            {
+                "src": "/assets/images/packages/lachha-parantha.jpg",
+                "caption": "Traditional Laccha Paratha, famous local delicacy served in Katra"
+            },
+            {
+                "src": "/assets/images/packages/lupin-gulmarg.png",
+                "caption": "Colorful Lupin flowers blooming in Gulmarg's meadows"
+            },
+            {
+                "src": "/assets/images/packages/dal.webp",
+                "caption": "Dal Lake with traditional shikara and Zabarwan mountain backdrop"
+            }
+        ],
+        "tourPlan": [
+            {
+                "day": "1",
+                "title": "Arrival Jammu - Transfer to Katra",
+                "description": "Receive at Jammu Railway Station. Drive to Katra (50 km). Check into hotel. Evening free to prepare for trek. Early dinner and rest.",
+                "note": "Collect Yatra Parchi for next day darshan"
+            },
+            {
+                "day": "2",
+                "title": "Vaishno Devi Darshan",
+                "description": "Early morning start trek to Vaishno Devi (14 km). Darshan at the holy shrine. Return to Katra by evening. Rest at hotel.",
+                "note": "Ponies, palkis, and helicopter services available"
+            },
+            {
+                "day": "3",
+                "title": "Katra to Srinagar via Patnitop (270 km)",
+                "description": "Early checkout and drive to Srinagar. Enroute visit Patnitop for refreshments. Reach Srinagar by evening. Check into hotel. Visit Hazratbal Shrine.",
+                "note": "Long driving day, carry snacks"
+            },
+            {
+                "day": "4",
+                "title": "Srinagar - Gulmarg Excursion",
+                "description": "Day trip to Gulmarg. Visit Baba Reshi Shrine enroute. Cable car ride and sightseeing in Gulmarg. Return to Srinagar. Evening visit to Shankaracharya Temple.",
+                "note": "Temple requires climb of 250 steps"
+            },
+            {
+                "day": "5",
+                "title": "Srinagar - Departure",
+                "description": "Visit Kheer Bhawani Temple (optional). Shopping for prasad and souvenirs. Transfer to airport/railway station for departure.",
+                "note": "Sunday is auspicious for temple visits"
+            }
+        ],
+        "inclusions": [
+            {
+                "title": "Accommodation",
+                "description": "Accommodation as per itinerary in selected hotels/houseboats",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMTNIMTdWMTlIN1YxM1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA2VjEwSDEwVjZIOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNCA2VjEwSDE1VjZIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTkgN1YxOUgyMFY3SDE5WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01IDdWMTlINFY3SDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "bed"
+            },
+            {
+                "title": "Meals",
+                "description": "MAP (Breakfast & Dinner)",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgMTFIMjFWMjBBMSAxIDAgMCAxIDIwIDIxSDRBMSAxIDAgMCAxIDMgMjBWMTFaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTFWN0EzIDMgMCAwIDEgOCA0SDE2QTMgMyAwIDAgMSAxOSA3VjExIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDRWMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "utensils"
+            },
+            {
+                "title": "Transportation",
+                "description": "Private AC Sedan/SUV for sightseeing and transfers",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEwVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTcgMTZIMTdWMTlIN1YxNloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjEgMTBIMTlMMTggNkg2TDUgMTBIM1YxMUg1VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjE2IiByPSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                "icon": "car"
+            },
+            {
+                "title": "Transfers",
+                "description": "Srinagar Airport pickup and drop",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIxIDEySDE5TDE4IDhINkw1IDEySDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgNy41VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDcuNVYxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5Z29uIHBvaW50cz0iMTEsMyAxMi41LDYgMTMuNSwzIDExLDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "plane"
+            },
+            {
+                "title": "Guide Services",
+                "description": "Professional local guide and driver",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDIxVjE5QTQgNCAwIDAgMCAxNiAxNUg4QTQgNCAwIDAgMCA0IDE5VjIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "guide"
+            },
+            {
+                "title": "Support",
+                "description": "24/7 customer support during the trip",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyQTkgOSAwIDAgMSAzIDEyQTkgOSAwIDAgMSAyMSAxMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgOEE0IDQgMCAwIDEgMTYgMTJBNCA0IDAgMCAxIDEyIDE2VjEySDgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "support"
+            }
+        ],
+        "exclusions": [
+            "Airfare/train tickets",
+            "Gondola rides and adventure activities",
+            "Personal expenses and tips",
+            "Travel insurance",
+            "Anything not mentioned in inclusions"
+        ]
+    },
+    {
+        "id": "7",
+        "packageName": "Kargil Victory Trail",
+        "duration": "5 Nights 6 Days",
+        "location": "Kashmir",
+        "price": "17899",
+        "bgImage": "/assets/images/packages/kargil-war-memorial.jpeg",
+        "mealsPlan": "MAP",
+        "vehicle": "SUV/Innova",
+        "pickAndDrop": "Srinagar Airport/Leh Airport",
+        "description": "A patriotic journey tracing the historic Kargil War locations. Visit the War Memorial, Tiger Hill viewpoint, and interact with war veterans. Combined with the scenic beauty of Suru Valley and monasteries, this package offers both historical insights and natural splendor. Ideal for history enthusiasts and patriots.",
+        "images": [
+            {
+                "src": "/assets/images/packages/kargil-war-memorial.jpeg",
+                "caption": "Kargil War Memorial honoring soldiers who sacrificed their lives in 1999"
+            },
+            {
+                "src": "/assets/images/packages/Kargil_Town.jpg",
+                "caption": "Kargil town nestled in the mountains along Srinagar-Leh highway"
+            },
+            {
+                "src": "/assets/images/packages/kagril-snow.png",
+                "caption": "Local residents traveling on horses through Kargil's snowy terrain"
+            }
+        ],
+        "tourPlan": [
+            {
+                "day": "1",
+                "title": "Arrival Srinagar",
+                "description": "Arrive at Srinagar Airport. Transfer to hotel. Visit local war memorial. Evening briefing about Kargil War history. Overnight in Srinagar.",
+                "note": "Documentary screening about Kargil War"
+            },
+            {
+                "day": "2",
+                "title": "Srinagar to Kargil via Sonamarg (204 km)",
+                "description": "Early departure via Sonamarg. Cross Zoji La Pass (11,575 ft). Stop at Drass War Memorial - pay homage to martyrs. Reach Kargil by evening.",
+                "note": "Carry warm clothes for Zoji La crossing"
+            },
+            {
+                "day": "3",
+                "title": "Kargil - Suru Valley Excursion",
+                "description": "Visit Suru Valley - view of Nun Kun peaks. See Kartse Khar Buddha statue. Visit Munshi Aziz Bhat Museum. Interaction with local war veterans (subject to availability).",
+                "note": "Photography restricted in some areas"
+            },
+            {
+                "day": "4",
+                "title": "Kargil to Leh via Mulbekh (230 km)",
+                "description": "Visit Mulbekh Monastery and giant Buddha statue. Photo stops at Namika La and Fotu La passes. Visit Lamayuru Monastery. Reach Leh by evening.",
+                "note": "Acclimatization needed in Leh"
+            },
+            {
+                "day": "5",
+                "title": "Leh Local Sightseeing",
+                "description": "Visit Hall of Fame Museum (Army museum). Leh Palace, Shanti Stupa, and local monasteries. Evening free for market visit.",
+                "note": "Museum closed on Mondays"
+            },
+            {
+                "day": "6",
+                "title": "Departure from Leh",
+                "description": "Transfer to Leh Airport. Departure with memories of valor and sacrifice.",
+                "note": "Weather dependent flight schedules"
+            }
+        ],
+        "inclusions": [
+            {
+                "title": "Accommodation",
+                "description": "Accommodation as per itinerary in selected hotels/houseboats",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMTNIMTdWMTlIN1YxM1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA2VjEwSDEwVjZIOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNCA2VjEwSDE1VjZIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTkgN1YxOUgyMFY3SDE5WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01IDdWMTlINFY3SDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "bed"
+            },
+            {
+                "title": "Meals",
+                "description": "MAP (Breakfast & Dinner)",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgMTFIMjFWMjBBMSAxIDAgMCAxIDIwIDIxSDRBMSAxIDAgMCAxIDMgMjBWMTFaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTFWN0EzIDMgMCAwIDEgOCA0SDE2QTMgMyAwIDAgMSAxOSA3VjExIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDRWMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "utensils"
+            },
+            {
+                "title": "Transportation",
+                "description": "Private AC Sedan/SUV for sightseeing and transfers",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEwVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTcgMTZIMTdWMTlIN1YxNloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjEgMTBIMTlMMTggNkg2TDUgMTBIM1YxMUg1VjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjE2IiByPSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                "icon": "car"
+            },
+            {
+                "title": "Transfers",
+                "description": "Srinagar Airport pickup and drop",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyVjE5QTEgMSAwIDAgMSAyMCAyMEg0QTEgMSAwIDAgMSAzIDE5VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIxIDEySDE5TDE4IDhINkw1IDEySDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgNy41VjEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDcuNVYxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5Z29uIHBvaW50cz0iMTEsMyAxMi41LDYgMTMuNSwzIDExLDMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "plane"
+            },
+            {
+                "title": "Guide Services",
+                "description": "Professional local guide and driver",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDIxVjE5QTQgNCAwIDAgMCAxNiAxNUg4QTQgNCAwIDAgMCA0IDE5VjIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+                "icon": "guide"
+            },
+            {
+                "title": "Support",
+                "description": "24/7 customer support during the trip",
+                "svgUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDEyQTkgOSAwIDAgMSAzIDEyQTkgOSAwIDAgMSAyMSAxMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgOEE0IDQgMCAwIDEgMTYgMTJBNCA0IDAgMCAxIDEyIDE2VjEySDgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+                "icon": "support"
+            }
+        ],
+        "exclusions": [
+            "Airfare/train tickets",
+            "Gondola rides and adventure activities",
+            "Personal expenses and tips",
+            "Travel insurance",
+            "Anything not mentioned in inclusions"
+        ]
+    }
+]

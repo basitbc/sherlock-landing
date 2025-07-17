@@ -1,0 +1,873 @@
+// LEADS MODAL STYLES
+.leads-modal {
+    // .modal-dialog {
+    //     max-width: 600px;
+    //     margin: 1.75rem auto;
+    //     width: calc(100% - 3rem);
+    //     max-height: 90vh;
+
+    //     // Mobile specific modal positioning and sizing
+    //     @include media(sm) {
+    //         width: calc(100% - 2rem);
+    //         max-height: 70vh;
+    //         height: 60vh !important;
+    //         margin: 0;
+    //     }
+    // }
+
+    // Package modal layout
+    &--with-package {
+        .modal-dialog {
+            max-width: 1100px;
+
+            @include media(sm) {
+                max-height: 70vh;
+                height: 70vh;
+            }
+        }
+
+        .modal-content {
+            @include media(sm) {
+                border-radius: 0.8rem;
+            }
+        }
+    }
+
+    // Success modal specific styles
+    &--success {
+        .modal-dialog {
+            max-width: 500px;
+
+            @include media(sm) {
+                height: auto;
+                max-height: 90vh;
+            }
+        }
+    }
+
+    &__dialog--success {
+        .modal-content {
+            border: none;
+            border-radius: 1.2rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    .modal-content {
+        border: none;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+        max-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        @include media(sm) {
+            height: 100%;
+        }
+    }
+
+    &__header {
+        background: linear-gradient(135deg, #e91e63 0%, #e7247a 100%);
+        color: white;
+        border: none;
+        padding: 2rem 2rem 1.6rem;
+        position: relative;
+        flex-shrink: 0;
+
+        @include media(sm) {
+            padding: 1.6rem 1.6rem 1.2rem;
+        }
+    }
+
+    &__title-section {
+        padding-right: 3.5rem;
+
+        @include media(sm) {
+            padding-right: 3rem;
+        }
+    }
+
+    &__title {
+        font-family: $brandon-grotesque;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.2;
+        color: white;
+        margin: 0 0 0.8rem 0;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+
+        @include media(lg) {
+            font-size: 1.8rem;
+        }
+
+        @include media(md) {
+            font-size: 1.6rem;
+        }
+
+        @include media(sm) {
+            font-size: 1.5rem;
+            margin-bottom: 0.6rem;
+        }
+    }
+
+    &__subtitle {
+        font-family: $brandon-grotesque;
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 1.4;
+        color: rgba(255, 255, 255, 0.9);
+        margin: 0;
+
+        @include media(lg) {
+            font-size: 1.2rem;
+        }
+
+        @include media(sm) {
+            font-size: 1.1rem;
+        }
+    }
+
+    &__body {
+        padding: 0;
+        background: white;
+        overflow: hidden;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+    }
+
+    &__content {
+        display: flex;
+        min-height: 0;
+        flex: 1;
+        overflow: hidden;
+
+        @include media(md) {
+            flex-direction: column;
+            overflow-y: auto;
+        }
+    }
+
+    &__package-section {
+        flex: 0 0 320px;
+        background: #f8f8f8;
+        border-right: 1px solid #e0e0e0;
+        overflow-y: auto;
+
+        @include media(lg) {
+            flex: 0 0 280px;
+        }
+
+        @include media(md) {
+            display: none;
+        }
+    }
+
+    &__mobile-package {
+        display: none;
+
+        @include media(md) {
+            display: block;
+            padding: 1.6rem;
+            background: #f8f8f8;
+            border-bottom: 1px solid #e0e0e0;
+            flex-shrink: 0;
+        }
+
+        @include media(sm) {
+            padding: 1.2rem;
+        }
+    }
+
+    &__form-section {
+        flex: 1;
+        overflow-y: auto;
+        min-height: 0;
+        padding: 2rem;
+
+        // Custom scrollbar for webkit browsers
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        @include media(sm) {
+            padding: 1.6rem;
+        }
+
+        // When no package section
+        .leads-modal:not(.leads-modal--with-package) & {
+            padding: 2rem;
+
+            @include media(sm) {
+                padding: 1.6rem;
+            }
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        @include media(sm) {
+            gap: 1.6rem;
+        }
+    }
+
+    &__section {
+        &-title {
+            font-family: $brandon-grotesque;
+            font-weight: 600;
+            font-size: 1.4rem;
+            color: #333;
+            margin: 0 0 1.2rem 0;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+
+            @include media(lg) {
+                font-size: 1.3rem;
+            }
+
+            @include media(sm) {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    &__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+
+        @include media(sm) {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+
+    &__field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    &__label {
+        font-family: $brandon-grotesque;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #333;
+        margin: 0;
+
+        @include media(sm) {
+            font-size: 1.1rem;
+        }
+    }
+
+    &__input {
+        font-family: $brandon-grotesque;
+        font-size: 1.2rem;
+        padding: 1rem 1.2rem;
+        border: 2px solid #e0e0e0;
+        border-radius: 0.6rem;
+        transition: all 0.3s ease;
+        background: white;
+
+        @include media(sm) {
+            font-size: 1.1rem;
+            padding: 0.9rem 1rem;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: #e91e63;
+            box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.1);
+        }
+
+        &--error {
+            border-color: #dc3545;
+
+            &:focus {
+                border-color: #dc3545;
+                box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+            }
+        }
+
+        &::placeholder {
+            color: #999;
+        }
+    }
+
+    &__textarea {
+        @extend .leads-modal__input;
+        resize: vertical;
+        min-height: 8rem;
+        font-family: $brandon-grotesque;
+    }
+
+    &__error {
+        font-family: $brandon-grotesque;
+        font-size: 1.1rem;
+        color: #dc3545;
+        margin-top: 0.3rem;
+
+        @include media(sm) {
+            font-size: 1rem;
+        }
+    }
+
+    &__guests {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+
+        @include media(sm) {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+
+    &__guest-field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        align-items: center;
+
+        @include media(sm) {
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &__counter {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        margin-top: 0.6rem;
+
+        @include media(sm) {
+            margin-top: 0;
+        }
+
+        &-btn {
+            width: 3rem;
+            height: 3rem;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 50%;
+            font-family: $brandon-grotesque;
+            font-weight: 600;
+            font-size: 1.6rem;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @include media(sm) {
+                width: 2.8rem;
+                height: 2.8rem;
+                font-size: 1.4rem;
+            }
+
+            &:hover:not(:disabled) {
+                border-color: #e91e63;
+                background: #e91e63;
+                color: white;
+                transform: scale(1.05);
+            }
+
+            &:disabled {
+                opacity: 0.4;
+                cursor: not-allowed;
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.2);
+            }
+        }
+
+        &-value {
+            font-family: $brandon-grotesque;
+            font-weight: 600;
+            font-size: 1.6rem;
+            color: #333;
+            min-width: 2.4rem;
+            text-align: center;
+
+            @include media(sm) {
+                font-size: 1.4rem;
+                min-width: 2rem;
+            }
+        }
+    }
+
+    &__footer {
+        background: #f8f8f8;
+        border: none;
+        padding: 1.6rem 2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        flex-shrink: 0;
+
+        @include media(sm) {
+            padding: 1.2rem 1.6rem;
+            gap: 0.8rem;
+            justify-content: center !important;
+
+            align-items: center !important;
+        }
+    }
+
+    // Success State Styles
+    &__success-body {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 400px;
+
+        @include media(sm) {
+            min-height: auto;
+            padding: 2rem 1rem;
+        }
+    }
+
+    &__success-content {
+        text-align: center;
+        padding: 3rem;
+        max-width: 450px;
+        width: 100%;
+
+        @include media(sm) {
+            padding: 2rem 1rem;
+        }
+    }
+
+    &__success-icon {
+        margin-bottom: 2rem;
+        animation: successPulse 0.6s ease-out;
+
+        svg {
+            width: 80px;
+            height: 80px;
+
+            @include media(sm) {
+                width: 60px;
+                height: 60px;
+            }
+
+            circle {
+                animation: drawCircle 0.6s ease-out;
+            }
+
+            path {
+                animation: drawCheck 0.4s ease-out 0.3s;
+                animation-fill-mode: both;
+            }
+        }
+    }
+
+    &__success-title {
+        font-family: $brandon-grotesque;
+        font-weight: 700;
+        font-size: 2.4rem;
+        color: #333;
+        margin: 0 0 1rem 0;
+
+        @include media(sm) {
+            font-size: 2rem;
+        }
+    }
+
+    &__success-message {
+        font-family: $brandon-grotesque;
+        font-size: 1.4rem;
+        color: #666;
+        line-height: 1.6;
+        margin: 0 0 2.5rem 0;
+
+        @include media(sm) {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__success-contact {
+        margin-bottom: 2rem;
+
+        &-title {
+            font-family: $brandon-grotesque;
+            font-size: 1.3rem;
+            color: #666;
+            margin: 0 0 1.5rem 0;
+
+            @include media(sm) {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    &__success-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    &__success-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.8rem;
+        padding: 1rem 2rem;
+        border-radius: 0.6rem;
+        font-family: $brandon-grotesque;
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        min-width: 250px;
+        justify-content: center;
+
+        @include media(sm) {
+            font-size: 1.2rem;
+            padding: 0.9rem 1.8rem;
+            min-width: 220px;
+        }
+
+        svg {
+            flex-shrink: 0;
+        }
+
+        &--phone {
+            background: #4CAF50;
+            color: white;
+
+            &:hover {
+                background: #45a049;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+                color: white;
+            }
+        }
+
+        &--email {
+            background: #e91e63;
+            color: white;
+
+            &:hover {
+                background: #d81b60;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3);
+                color: white;
+            }
+        }
+    }
+
+    &__success-close {
+        background: none;
+        border: 2px solid #e0e0e0;
+        color: #666;
+        padding: 0.8rem 2rem;
+        border-radius: 0.6rem;
+        font-family: $brandon-grotesque;
+        font-weight: 500;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            border-color: #999;
+            color: #333;
+            background: #f5f5f5;
+        }
+    }
+}
+
+// Package card styles remain the same
+.package-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__image {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        @include media(lg) {
+            height: 180px;
+        }
+
+        @include media(md) {
+            height: 160px;
+        }
+
+        @include media(sm) {
+            height: 140px;
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+
+    &__duration {
+        background: rgba(233, 30, 99, 0.9);
+        color: white;
+        padding: 0.4rem 0.8rem;
+        border-radius: 0.4rem;
+        font-family: $brandon-grotesque;
+        font-weight: 600;
+        font-size: 1.1rem;
+
+        @include media(sm) {
+            font-size: 1rem;
+            padding: 0.3rem 0.6rem;
+        }
+    }
+
+    &__details {
+        padding: 1.6rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        @include media(sm) {
+            padding: 1.2rem;
+            gap: 0.8rem;
+        }
+    }
+
+    &__name {
+        font-family: $brandon-grotesque;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.3;
+        color: #333;
+        margin: 0;
+
+        @include media(lg) {
+            font-size: 1.3rem;
+        }
+
+        @include media(sm) {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__meta {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    &__location {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: $brandon-grotesque;
+        font-size: 1.2rem;
+        color: #666;
+
+        @include media(sm) {
+            font-size: 1.1rem;
+        }
+
+        svg {
+            color: #e91e63;
+        }
+    }
+
+    &__price {
+        font-family: $brandon-grotesque;
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: #e91e63;
+
+        @include media(lg) {
+            font-size: 1.6rem;
+        }
+
+        @include media(sm) {
+            font-size: 1.4rem;
+        }
+
+        &-unit {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
+            margin-left: 0.3rem;
+
+            @include media(sm) {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    &__extras {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        margin-top: auto;
+    }
+
+    &__feature {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: $brandon-grotesque;
+        font-size: 1.1rem;
+        color: #666;
+
+        @include media(sm) {
+            font-size: 1rem;
+        }
+
+        svg {
+            color: #999;
+        }
+    }
+}
+
+// Mobile package summary styles
+.mobile-package-summary {
+    &__name {
+        font-family: $brandon-grotesque;
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: #333;
+        margin: 0 0 0.8rem 0;
+
+        @include media(sm) {
+            font-size: 1.3rem;
+        }
+    }
+
+    &__details {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+
+        @include media(sm) {
+            gap: 0.8rem;
+        }
+    }
+
+    &__location {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-family: $brandon-grotesque;
+        font-size: 1.1rem;
+        color: #666;
+
+        svg {
+            color: #e91e63;
+        }
+    }
+
+    &__duration {
+        font-family: $brandon-grotesque;
+        font-size: 1.1rem;
+        color: #666;
+        padding: 0.2rem 0.6rem;
+        background: rgba(233, 30, 99, 0.1);
+        border-radius: 0.3rem;
+    }
+
+    &__price {
+        font-family: $brandon-grotesque;
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: #e91e63;
+        margin-left: auto;
+
+        @include media(sm) {
+            margin-left: 0;
+        }
+    }
+}
+
+// Animations
+@keyframes successPulse {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes drawCircle {
+    0% {
+        stroke-dasharray: 0 126;
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dasharray: 126 126;
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes drawCheck {
+    0% {
+        stroke-dasharray: 0 50;
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+
+    100% {
+        stroke-dasharray: 50 50;
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+}
+
+// Bootstrap modal overlay fix for mobile
+.modal-backdrop {
+    @include media(sm) {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}

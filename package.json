@@ -1,0 +1,38 @@
+{
+  "name": "sherlock-travels",
+  "version": "1.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^5.16.14",
+    "@mui/styled-engine-sc": "^6.4.2",
+    "@popperjs/core": "2.11.8",
+    "@react-google-maps/api": "^2.19.2",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "css-loader": "^7.1.2",
+    "next": "^14.2.13",
+    "prop-types": "15.6.0",
+    "react": "^18",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18",
+    "react-modal-video": "^2.0.1",
+    "react-multi-date-picker": "^4.4.1",
+    "recharts": "^2.9.3",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "styled-components": "^6.1.14",
+    "swiper": "^11.0.3"
+  },
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}

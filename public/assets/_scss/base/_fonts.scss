@@ -1,0 +1,518 @@
+// ============================================
+// BRANDON GROTESQUE FONT FAMILY
+// ============================================
+
+// Brandon Grotesque - Thin (100)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Thin Italic (100)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Light (300)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Light Italic (300)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Regular (400)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Regular Italic (400)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Medium (500)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Medium Italic (500)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Bold (700)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Bold Italic (700)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Black (900)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Brandon Grotesque - Black Italic (900)
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/Brandon/Brandon-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+// ============================================
+// ALTERNATE GOTHIC FONT FAMILY
+// ============================================
+
+// Alternate Gothic No1 D
+@font-face {
+    font-family: 'Alternate Gothic';
+    src: url('/fonts/alternategotno1d/AlternateGotNo1D.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+// ============================================
+// FONT FAMILY VARIABLES
+// ============================================
+
+// Primary font family with fallbacks
+$brandon-grotesque: "Brandon Grotesque", "Cabin", "Josefin Sans", "Lato", Helvetica, Arial, sans-serif;
+
+// Alternate Gothic font family with fallbacks
+$alternate-gothic: "Alternate Gothic", "Arial Black", "Helvetica", Arial, sans-serif;
+
+// Font family for different use cases
+$font-primary: $brandon-grotesque;
+$font-heading: $brandon-grotesque;
+$font-body: $brandon-grotesque;
+$font-alternate: $alternate-gothic;
+
+// ============================================
+// FONT WEIGHT VARIABLES
+// ============================================
+
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// ============================================
+// FONT UTILITY CLASSES
+// ============================================
+
+// Brandon Grotesque Font Family Classes
+.brandon-grotesque,
+.font-brandon {
+    font-family: $brandon-grotesque;
+}
+
+// Alternate Gothic Font Family Classes
+.alternate-gothic,
+.font-alternate {
+    font-family: $alternate-gothic;
+    font-weight: 400;
+    font-style: normal;
+}
+
+// Brandon Grotesque Weight Classes
+.brandon-thin,
+.font-thin {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-thin;
+    font-style: normal;
+}
+
+.brandon-thin-italic,
+.font-thin-italic {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-thin;
+    font-style: italic;
+}
+
+.brandon-light,
+.font-light {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-light;
+    font-style: normal;
+}
+
+.brandon-light-italic,
+.font-light-italic {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-light;
+    font-style: italic;
+}
+
+.brandon-regular,
+.font-regular {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-regular;
+    font-style: normal;
+}
+
+.brandon-regular-italic,
+.font-regular-italic {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-regular;
+    font-style: italic;
+}
+
+.brandon-medium,
+.font-medium {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-medium;
+    font-style: normal;
+}
+
+.brandon-medium-italic,
+.font-medium-italic {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-medium;
+    font-style: italic;
+}
+
+.brandon-bold,
+.font-bold {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-bold;
+    font-style: normal;
+}
+
+.brandon-bold-italic,
+.font-bold-italic {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-bold;
+    font-style: italic;
+}
+
+.brandon-black,
+.font-black {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-black;
+    font-style: normal;
+}
+
+.brandon-black-italic,
+.font-black-italic {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-black;
+    font-style: italic;
+}
+
+// ============================================
+// RESPONSIVE FONT SIZES WITH BRANDON GROTESQUE
+// ============================================
+
+// Heading Classes
+.heading-xl {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-bold;
+    font-size: 4.8rem;
+    line-height: 1.1;
+
+    @media (max-width: 768px) {
+        font-size: 3.6rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 3.2rem;
+    }
+}
+
+.heading-lg {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-bold;
+    font-size: 3.6rem;
+    line-height: 1.2;
+
+    @media (max-width: 768px) {
+        font-size: 2.8rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 2.4rem;
+    }
+}
+
+.heading-md {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-medium;
+    font-size: 2.4rem;
+    line-height: 1.3;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 1.8rem;
+    }
+}
+
+.heading-sm {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-medium;
+    font-size: 2rem;
+    line-height: 1.4;
+
+    @media (max-width: 768px) {
+        font-size: 1.8rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 1.6rem;
+    }
+}
+
+// Alternate Gothic Heading Classes
+.heading-alt-xl {
+    font-family: $alternate-gothic;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+
+    @media (max-width: 768px) {
+        font-size: 3.6rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 3.2rem;
+    }
+}
+
+.heading-alt-lg {
+    font-family: $alternate-gothic;
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+
+    @media (max-width: 768px) {
+        font-size: 2.8rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 2.4rem;
+    }
+}
+
+.heading-alt-md {
+    font-family: $alternate-gothic;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 1.8rem;
+    }
+}
+
+// Body Text Classes
+.body-lg {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-regular;
+    font-size: 1.8rem;
+    line-height: 1.6;
+
+    @media (max-width: 768px) {
+        font-size: 1.6rem;
+    }
+}
+
+.body-md {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-regular;
+    font-size: 1.6rem;
+    line-height: 1.5;
+
+    @media (max-width: 768px) {
+        font-size: 1.4rem;
+    }
+}
+
+.body-sm {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-regular;
+    font-size: 1.4rem;
+    line-height: 1.5;
+
+    @media (max-width: 768px) {
+        font-size: 1.2rem;
+    }
+}
+
+// Caption/Label Classes
+.caption {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-medium;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.label {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-medium;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+
+// Alternate Gothic Labels
+.label-alt {
+    font-family: $alternate-gothic;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+// ============================================
+// GLOBAL FONT APPLICATION
+// ============================================
+
+html,
+body {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-regular;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $brandon-grotesque;
+}
+
+h1 {
+    font-weight: $font-weight-bold;
+    font-size: 4.8rem;
+    line-height: 1.1;
+}
+
+h2 {
+    font-weight: $font-weight-bold;
+    font-size: 3.6rem;
+    line-height: 1.2;
+}
+
+h3 {
+    font-weight: $font-weight-medium;
+    font-size: 2.4rem;
+    line-height: 1.3;
+}
+
+h4 {
+    font-weight: $font-weight-medium;
+    font-size: 2rem;
+    line-height: 1.4;
+}
+
+h5 {
+    font-weight: $font-weight-medium;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+h6 {
+    font-weight: $font-weight-medium;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+// Paragraphs and body text
+p {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-regular;
+}
+
+// Buttons
+button,
+.btn {
+    font-family: $brandon-grotesque;
+    font-weight: $font-weight-medium;
+}
+
+// ============================================
+// TEXT TRANSFORM UTILITIES
+// ============================================
+
+.text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}

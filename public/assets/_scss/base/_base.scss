@@ -1,0 +1,648 @@
+// @include font-face(Brandon-Regular, "../../fonts/Brandon/Brandon-Regular", 400, normal, otf);
+// @include font-face(Brandon-Bold, "../../fonts/Brandon/Brandon-Bold", 700, normal, otf);
+// @include font-face(Brandon-Medium, "../../fonts/Brandon/Brandon-Medium", 500, normal, otf);
+
+
+html {
+  font-size: 10px;
+  // background-color: $secondary;
+  scroll-behavior: smooth;
+}
+
+#root {
+  // background-color: $secondary;
+}
+
+.bg-green-24E {
+  background-color: $green-24E;
+}
+
+.container,
+.container-mb {
+  width: 100% !important;
+  max-width: 1440px !important;
+  padding: 0 6rem !important;
+  margin: 0 auto;
+
+  @include media(lg) {
+    padding: 0 4rem !important;
+  }
+
+  @include media(sm) {
+    padding: 0 2rem !important;
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+
+
+
+//Fonts
+.brandon-light {
+  @include fontWeight("Brandon-light", 300, normal);
+}
+
+.brandon-regular {
+  @include fontWeight("Brandon-Regular", 400, normal);
+}
+
+.brandon-medium {
+  @include fontWeight("Brandon-Medium", 500, normal);
+}
+
+.brandon-bold {
+  @include fontWeight("Brandon-Bold", 700, normal);
+}
+
+
+// Font Size
+@for $i from 1 through 100 {
+  .f-s-#{$i} {
+    font-size: $i + px;
+  }
+}
+
+// Line Height
+@for $x from 1 through 100 {
+  .lh-#{$x} {
+    line-height: $x + px;
+  }
+}
+
+// Opacity
+@for $y from 0 through 10 {
+  .op-#{$y} {
+    opacity: $y / 10;
+  }
+}
+
+.br-10 {
+  border-radius: 1rem;
+}
+
+.br-8 {
+  border-radius: 0.8rem;
+}
+
+.br-4 {
+  border-radius: 0.4rem;
+}
+
+.br-20 {
+  border-radius: 2rem;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+//text-justify
+.text-justify {
+  text-align: justify;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+// =================== COMON CSS START ==================
+
+
+.white {
+  color: $white;
+}
+
+.white-1 {
+  color: $white-1;
+}
+
+.white-F5F {
+  color: $white-F5F;
+}
+
+.primary {
+  color: $primary;
+
+}
+
+.black {
+  color: $black;
+}
+
+.grey-D9D {
+  color: $grey-D9D;
+}
+
+.grey-C0B {
+  color: $grey-C0B;
+
+}
+
+.grey-7E7 {
+  color: $grey-7E7;
+}
+
+.blue-3B7 {
+  color: $blue-3B7;
+}
+
+.blue-56C {
+  color: $blue-56C;
+}
+
+.pink-EB5 {
+  color: $pink-EB5;
+}
+
+.grey-5A5 {
+  color: $grey-5A5
+}
+
+.grey-838 {
+  color: $grey-838;
+}
+
+.black-1 {
+  color: $black-1;
+}
+
+.black-171 {
+  color: $black-171;
+}
+
+.yellow-C0A {
+  color: $yellow-C0A
+}
+
+.red-C06 {
+  color: $red-C06
+}
+
+.blue-629 {
+  color: $blue-629
+}
+
+.pink-C06 {
+  color: $pink-C06
+}
+
+
+// ========= FONT SICE RESPONSIVE -----------------------
+.fs-80-40 {
+  font-size: 8rem;
+  line-height: 11rem;
+}
+
+.fs-72-48 {
+  font-size: 7.2rem;
+  line-height: 8.6rem;
+
+  @include media (lg) {
+    font-size: 5.6rem;
+    line-height: 6.2rem;
+  }
+
+  @include media (sm) {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+  }
+}
+
+.fs-64-32 {
+  font-size: 6.4rem;
+  line-height: 7.9rem;
+}
+
+.fs-60-32 {
+  font-size: 6rem;
+  line-height: 7.2rem;
+}
+
+.fs-55-27 {
+  font-size: 5.5rem;
+  line-height: 6.2rem;
+}
+
+.fs-48-32 {
+  font-size: 4.8rem;
+  line-height: 5.2rem;
+
+  @include media (lg) {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+  }
+
+  @include media (sm) {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+}
+
+.fs-40-20 {
+  font-size: 4rem;
+  line-height: 4.9rem;
+}
+
+.fs-36-18 {
+  font-size: 3.6rem;
+  line-height: 3.9rem;
+}
+
+.fs-32-16 {
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+}
+
+.fs-30-15 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.fs-28-14 {
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+}
+
+.fs-24-12 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+
+  @include media (lg) {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+
+  @include media (sm) {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}
+
+.fs-22-11 {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+.fs-20-10 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+
+  @include media (lg) {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  @include media (sm) {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+}
+
+.fs-16-8 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+
+  @include media (lg) {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  @include media (sm) {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}
+
+.fs-18-9 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+
+  @include media (lg) {
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+  }
+
+  @include media (sm) {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+}
+
+.fs-16-8 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+
+  @include media (lg) {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  @include media (sm) {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+}
+
+.fs-14-7 {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+
+  @include media (lg) {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  @include media (sm) {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
+
+.fs-12-6 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.fs-10-5 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+
+.primary-btn {
+  @include font($white, "Gilroy-Medium", 1.6rem, 400, 18px);
+  height: auto;
+  border-radius: 0rem !important;
+  padding: 1.25rem 2rem !important;
+  background-color: $black;
+  border: 1px solid $black;
+  cursor: pointer;
+  width: fit-content;
+
+  &:active,
+  &:active:focus,
+  &:focus,
+  &:hover {
+    background-color: $black;
+    border: 1px solid $black;
+    outline: none;
+    box-shadow: none;
+    color: $white;
+    cursor: pointer;
+
+  }
+
+  &:not(.disabled),
+  &:not(.disabled):active,
+  &:not(:disabled) {
+    background-color: $black;
+    border: 1px solid $black;
+    cursor: pointer;
+  }
+}
+
+.secondary-btn {
+  @include font($white, "Gilroy-Medium", 1.8rem, 500, 24px);
+  height: auto;
+  border-radius: 4px;
+  padding: 0.7rem 1.4rem;
+  background-color: $black;
+  border: 1px solid $black;
+  cursor: pointer;
+
+  &:active,
+  &:active:focus,
+  &:focus,
+  &:hover {
+    color: $white !important;
+    background-color: $black !important;
+    border: 1px solid $black !important;
+    outline: none;
+    box-shadow: none !important;
+    cursor: pointer;
+
+  }
+
+  &:not(.disabled),
+  &:not(.disabled):active,
+  &:not(:disabled) {
+    // color: $primary !important;
+    // background-color: $white !important;
+    border: 1px solid $black !important;
+    box-shadow: none !important;
+    cursor: pointer;
+
+  }
+}
+
+.secondary-btn-white {
+  @include font($black, "Gilroy-Medium", 1.6rem, 500, 24px);
+  height: auto;
+  border-radius: 8px;
+  padding: 2rem 4rem;
+  background-color: $white;
+  border: 1px solid $white;
+  cursor: pointer;
+
+  &:active,
+  &:active:focus,
+  &:focus,
+  &:hover {
+    color: $black !important;
+    background-color: $white !important;
+    border: 1px solid $white !important;
+    outline: none;
+    box-shadow: none !important;
+    cursor: pointer;
+
+  }
+
+  &:not(.disabled),
+  &:not(.disabled):active,
+  &:not(:disabled) {
+    // color: $primary !important;
+    // background-color: $white !important;
+    border: 1px solid $white !important;
+    box-shadow: none !important;
+    cursor: pointer;
+
+  }
+}
+
+@include media(md) {
+  .secondary-btn-white {
+    padding: 1.5rem 2.8rem !important;
+  }
+}
+
+.adventure-btn {
+  @include font($white, "Gilroy-Medium", 1.6rem, 500, 24px);
+  height: auto;
+  border-radius: 6rem;
+  padding: 2rem 4rem;
+  background-color: rgba(252, 252, 252, 0.01);
+  border: 1px solid rgba(252, 252, 252, 0.01);
+  cursor: pointer;
+  backdrop-filter: blur(100px); // Adds the blur effect
+
+  &:active,
+  &:active:focus,
+  &:focus,
+  &:hover {
+    color: $white !important;
+    background-color: rgba(252, 252, 252, 0.01) !important;
+    border: 1px solid rgba(252, 252, 252, 0.01) !important;
+    outline: none;
+    box-shadow: none !important;
+    cursor: pointer;
+    backdrop-filter: blur(100px) !important; // Ensures blur remains on hover
+  }
+
+  &:not(.disabled),
+  &:not(.disabled):active,
+  &:not(:disabled) {
+    border: 1px solid rgba(252, 252, 252, 0.01) !important;
+    box-shadow: none !important;
+    cursor: pointer;
+  }
+}
+
+
+@include media(md) {
+  .adventure-btn {
+    padding: 1.6rem 2rem;
+  }
+}
+
+.card-btn {
+  @include font($white, "Gilroy-Medium", 1.4rem, 500, 12px);
+  height: auto;
+  border-radius: 2rem;
+  padding: 0.7rem 5rem;
+  background-color: $black-1;
+  border: 1px solid $black-1;
+  cursor: pointer;
+
+  &:active,
+  &:active:focus,
+  &:focus,
+  &:hover {
+    color: $black !important;
+    background-color: $black-1 !important;
+    border: 1px solid transparent !important;
+    outline: none;
+    box-shadow: none !important;
+    cursor: pointer;
+
+  }
+
+  &:not(.disabled),
+  &:not(.disabled):active,
+  &:not(:disabled) {
+    // color: $primary !important;
+    background-color: $black-1 !important;
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+    cursor: pointer;
+  }
+
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.gap-40 {
+  gap: 4rem;
+}
+
+// Margins //
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.mb-28 {
+  margin-bottom: 2.8rem;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.mb-16 {
+  margin-bottom: 1.6rem;
+}
+
+.mb-12 {
+  margin-bottom: 1.2rem;
+}
+
+.mb-08 {
+  margin-bottom: 0.8rem;
+}
+
+.mt-50 {
+  margin-top: 5rem;
+}
+
+.mt-30 {
+  margin-top: 3rem;
+}
+
+.mt-20 {
+  margin-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.mt-64 {
+  margin-top: 6.4rem;
+}
+
+.mt-16 {
+  margin-top: 16rem;
+}
+
+.ml-20 {
+  margin-left: 2rem;
+}
+
+.mr-20 {
+  margin-right: 2rem;
+}
+
+@include media(lg) {
+  .mt-md-20 {
+    margin-top: 2rem;
+  }
+}
+
+@include media(xl) {
+  .mt-xl-64 {
+    margin-top: 6.4rem;
+  }
+}

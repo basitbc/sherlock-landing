@@ -1,0 +1,762 @@
+// COUNTRIES SECTION STYLES
+.countries-section {
+    padding: 8rem 0;
+    background: white;
+
+    @include media(lg) {
+        padding: 6rem 0;
+    }
+
+    @include media(sm) {
+        padding: 4rem 0;
+    }
+
+    &__container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 2rem;
+
+        @include media(sm) {
+            padding: 0 1.6rem;
+        }
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4rem;
+
+        @include media(lg) {
+            margin-bottom: 3rem;
+        }
+
+        @include media(sm) {
+            margin-bottom: 2.4rem;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+    }
+
+    &__title {
+        font-family: $alternate-gothic;
+        font-weight: 400;
+        font-size: 4.8rem;
+        line-height: 1.1;
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        margin: 0;
+
+        @include media(lg) {
+            font-size: 4.2rem;
+        }
+
+        @include media(md) {
+            font-size: 3.6rem;
+        }
+
+        @include media(sm) {
+            font-size: 3rem;
+        }
+    }
+
+    &__controls {
+        display: flex;
+        gap: 0.8rem;
+
+        @include media(sm) {
+            align-self: flex-end;
+        }
+    }
+
+    &__view-toggle {
+        width: 4.8rem;
+        height: 4.8rem;
+        background: white;
+        border: 2px solid #e0e0e0;
+        border-radius: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        @include media(sm) {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        svg {
+            color: #666;
+            transition: color 0.3s ease;
+        }
+
+        &:hover {
+            border-color: #e7247a;
+            background: #f8f8f8;
+
+            svg {
+                color: #e7247a;
+            }
+        }
+
+        &--active {
+            background: #333;
+            border-color: #333;
+
+            svg {
+                color: white;
+            }
+
+            &:hover {
+                background: #e7247a;
+                border-color: #e7247a;
+
+                svg {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.4rem;
+
+        @include media(lg) {
+            gap: 2rem;
+        }
+
+        @include media(md) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.8rem;
+        }
+
+        @include media(sm) {
+            grid-template-columns: 1fr;
+            gap: 1.6rem;
+        }
+    }
+}
+
+// COUNTRY CARD STYLES
+.country-card {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.6s ease forwards;
+
+    &:hover {
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+
+        .country-card__overlay {
+            background: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    &__image {
+        position: relative;
+        width: 100%;
+        height: 32rem;
+        overflow: hidden;
+
+        @include media(lg) {
+            height: 28rem;
+        }
+
+        @include media(md) {
+            height: 24rem;
+        }
+
+        @include media(sm) {
+            height: 20rem;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 2rem;
+        transition: all 0.3s ease;
+
+        @include media(lg) {
+            padding: 2.4rem 1.6rem;
+        }
+
+        @include media(sm) {
+            padding: 2rem 1.4rem;
+        }
+    }
+
+    &__name {
+        font-family: $brandon-grotesque;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 1.2;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 0;
+        transition: transform 0.3s ease;
+
+        @include media(lg) {
+            font-size: 2.2rem;
+        }
+
+        @include media(md) {
+            font-size: 2rem;
+        }
+
+        @include media(sm) {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+// GRID LAYOUT VARIANTS
+.countries-section {
+
+    // 2 column layout
+    &--two-columns {
+        .countries-section__grid {
+            grid-template-columns: repeat(2, 1fr);
+
+            @include media(sm) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    // 4 column layout
+    &--four-columns {
+        .countries-section__grid {
+            grid-template-columns: repeat(4, 1fr);
+
+            @include media(lg) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            @include media(md) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @include media(sm) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    // List layout
+    &--list-view {
+        .countries-section__grid {
+            grid-template-columns: 1fr;
+            gap: 1.6rem;
+        }
+
+        .country-card {
+            &__image {
+                height: 16rem;
+
+                @include media(sm) {
+                    height: 12rem;
+                }
+            }
+
+            &__overlay {
+                padding: 2rem;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            &__name {
+                font-size: 2rem;
+                text-align: left;
+
+                @include media(sm) {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
+
+// LOADING STATES
+.country-card {
+    &--loading {
+        .country-card__image {
+            background: #f0f0f0;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg,
+                        transparent,
+                        rgba(255, 255, 255, 0.6),
+                        transparent);
+                animation: loading 1.5s infinite;
+            }
+        }
+
+        img {
+            opacity: 0;
+        }
+    }
+}
+
+@keyframes loading {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// ACCESSIBILITY IMPROVEMENTS
+.country-card {
+    &:focus {
+        outline: 3px solid #e7247a;
+        outline-offset: 2px;
+    }
+
+    &:focus-visible {
+        outline: 3px solid #e7247a;
+        outline-offset: 2px;
+    }
+}
+
+// HIGH CONTRAST MODE
+@media (prefers-contrast: high) {
+    .countries-section {
+        &__title {
+            color: #000;
+        }
+
+        &__view-toggle {
+            border-color: #000;
+
+            svg {
+                color: #000;
+            }
+
+            &--active {
+                background: #000;
+                border-color: #000;
+            }
+        }
+    }
+
+    .country-card {
+        &__overlay {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        &__name {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+// REDUCED MOTION
+@media (prefers-reduced-motion: reduce) {
+    .country-card {
+        animation: none;
+        opacity: 1;
+        transform: none;
+
+        &:hover {
+            transform: none;
+
+            .country-card__image img {
+                transform: none;
+            }
+
+            .country-card__name {
+                transform: none;
+            }
+        }
+
+        &__image img,
+        &__overlay,
+        &__name {
+            transition: none;
+        }
+    }
+
+    .countries-section__view-toggle {
+        transition: none;
+
+        svg {
+            transition: none;
+        }
+    }
+}
+
+// MOBILE LANDSCAPE
+@media (max-width: 768px) and (orientation: landscape) {
+    .countries-section {
+        padding: 3rem 0;
+
+        &__title {
+            font-size: 2.4rem;
+        }
+
+        &__grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.2rem;
+        }
+    }
+
+    .country-card {
+        &__image {
+            height: 16rem;
+        }
+
+        &__name {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+// DESTINATION PAGE STYLES
+.destination-page {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+
+    // Ensure proper spacing from fixed header
+    padding-top: 0;
+
+    // Page sections
+    .page-section {
+        position: relative;
+        // scroll-margin-top: 12rem; // Account for sticky header + nav
+
+        @include media(lg) {
+            scroll-margin-top: 10rem;
+        }
+
+        @include media(sm) {
+            scroll-margin-top: 8rem;
+        }
+    }
+}
+
+// PLACEHOLDER SECTIONS STYLES
+.destination-page {
+    &__section {
+        padding: 8rem 0;
+        position: relative;
+
+        @include media(lg) {
+            padding: 6rem 0;
+        }
+
+        @include media(sm) {
+            padding: 4rem 0;
+        }
+
+        &--trip-finder {
+            background: #f8f8f8;
+            text-align: center;
+
+            .section-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2rem;
+
+                @include media(sm) {
+                    padding: 0 1.6rem;
+                }
+            }
+
+
+            .section-description {
+                font-family: $brandon-grotesque;
+                font-weight: 400;
+                font-size: 1.8rem;
+                line-height: 1.6;
+                color: #666;
+                margin: 0;
+
+                @include media(lg) {
+                    font-size: 1.7rem;
+                }
+
+                @include media(md) {
+                    font-size: 1.6rem;
+                }
+
+                @include media(sm) {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        &--experiences {
+            background: white;
+            text-align: center;
+
+            .section-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2rem;
+
+                @include media(sm) {
+                    padding: 0 1.6rem;
+                }
+            }
+
+            .section-description {
+                font-family: $brandon-grotesque;
+                font-weight: 400;
+                font-size: 1.8rem;
+                line-height: 1.6;
+                color: #666;
+                margin: 0;
+
+                @include media(lg) {
+                    font-size: 1.7rem;
+                }
+
+                @include media(md) {
+                    font-size: 1.6rem;
+                }
+
+                @include media(sm) {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        &--inspiration {
+            background: #f8f8f8;
+            text-align: center;
+
+            .section-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2rem;
+
+                @include media(sm) {
+                    padding: 0 1.6rem;
+                }
+            }
+
+            .section-description {
+                font-family: $brandon-grotesque;
+                font-weight: 400;
+                font-size: 1.8rem;
+                line-height: 1.6;
+                color: #666;
+                margin: 0;
+
+                @include media(lg) {
+                    font-size: 1.7rem;
+                }
+
+                @include media(md) {
+                    font-size: 1.6rem;
+                }
+
+                @include media(sm) {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}
+
+// PAGE LOADING STATES
+.destination-page {
+    &--loading {
+        .destination-page__section {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+    }
+}
+
+// PAGE ANIMATIONS
+.destination-page {
+    &--fade-in {
+        .destination-page__section {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInSection 0.8s ease forwards;
+
+            &:nth-child(1) {
+                animation-delay: 0.1s;
+            }
+
+            &:nth-child(2) {
+                animation-delay: 0.2s;
+            }
+
+            &:nth-child(3) {
+                animation-delay: 0.3s;
+            }
+
+            &:nth-child(4) {
+                animation-delay: 0.4s;
+            }
+
+            &:nth-child(5) {
+                animation-delay: 0.5s;
+            }
+        }
+    }
+}
+
+@keyframes fadeInSection {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// SMOOTH SCROLLING ENHANCEMENTS
+html {
+    scroll-behavior: smooth;
+}
+
+// FOCUS MANAGEMENT FOR ACCESSIBILITY
+.destination-page {
+    section:focus {
+        outline: none;
+    }
+
+    section:target {
+        animation: highlightSection 1s ease;
+    }
+}
+
+@keyframes highlightSection {
+
+    0%,
+    100% {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: rgba(231, 36, 122, 0.1);
+    }
+}
+
+// MOBILE LANDSCAPE ADJUSTMENTS
+@media (max-width: 768px) and (orientation: landscape) {
+    .destination-page {
+        &__section {
+            padding: 3rem 0;
+
+            .section-description {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+// HIGH CONTRAST MODE
+@media (prefers-contrast: high) {
+    .destination-page {
+        &__section {
+            .section-description {
+                color: #333;
+            }
+
+            &--trip-finder,
+            &--inspiration {
+                background: #f0f0f0;
+                border-top: 2px solid #000;
+                border-bottom: 2px solid #000;
+            }
+
+            &--experiences {
+                background: #fff;
+                border-top: 2px solid #000;
+                border-bottom: 2px solid #000;
+            }
+        }
+    }
+}
+
+// REDUCED MOTION
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .destination-page {
+        &--fade-in {
+            .destination-page__section {
+                opacity: 1;
+                transform: none;
+                animation: none;
+            }
+        }
+
+        section:target {
+            animation: none;
+        }
+    }
+
+    //  @keyframes fadeInSection,
+    //     @keyframes highlightSection {
+    //         to {
+    //             opacity: 1;
+    //             transform: translateY(0);
+    //             background-color: transparent;
+    //         }
+    //     }
+
+}
+
+// PRINT STYLES
+@media print {
+    .destination-page {
+        .section-description {
+            color: #333 !important;
+            font-size: 12pt;
+            line-height: 1.4;
+        }
+
+        &__section {
+            padding: 2rem 0;
+            page-break-inside: avoid;
+        }
+    }
+}

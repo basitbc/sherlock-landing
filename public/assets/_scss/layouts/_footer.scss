@@ -1,0 +1,146 @@
+.footer-section {
+    border: 1px solid black;
+    padding: 6rem 6rem 4rem 6rem;
+    background-color: $black;
+    margin: 10rem 1.6rem 1.6rem 1.6rem !important;
+    border-radius: 2rem;
+    width: 100%;
+    max-width: calc(100% - 3.2rem);
+    overflow-x: hidden !important;
+
+
+    @include media(md) {
+        margin: 8rem 1.6rem 1.6rem 1.6rem;
+    }
+
+    @include media(lg) {
+        padding: 4rem 4rem 4rem 4rem;
+
+    }
+
+    @include media(sm) {
+        padding: 2.8rem 2rem 2.8rem 2rem;
+        margin: 6rem 0.8rem 0.8rem 0.8rem !important;
+        max-width: calc(100% - 1.6rem);
+
+
+    }
+
+    .company-logo {
+        @include media(sm) {
+            width: 10rem !important;
+            height: 3rem !important;
+        }
+    }
+
+    .footer-logo {
+        @include media(sm) {
+            gap: 1.6rem !important;
+
+        }
+
+        .logo {
+            @include media(sm) {
+                width: 2.4rem !important;
+                height: 2.4rem !important;
+            }
+        }
+    }
+
+    .footer-details {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 4rem;
+
+        @include media(xl) {
+            flex-direction: column;
+
+        }
+
+        @include media(sm) {
+            margin-bottom: 0;
+
+        }
+
+        .input-group {
+            position: relative;
+            display: flex;
+            align-content: center;
+
+            .form-control {
+                border-radius: 0.8rem !important;
+                padding: 1.6rem 1.2rem;
+                min-height: 6.4rem;
+                max-width: 44rem;
+                font-size: 1.8rem;
+
+                @include media(xl) {
+                    max-width: 100%;
+
+                }
+
+                @include media(sm) {
+                    min-height: 5.2rem;
+
+                }
+
+            }
+
+        }
+
+        .footer-data {
+            display: flex;
+            flex-direction: row;
+
+            @include media(sm) {
+                flex-direction: column;
+                gap: 2.8rem;
+            }
+
+            .footer-links {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                list-style: none;
+                padding-left: 0 !important;
+
+                @include media(xl) {
+                    gap: 12px;
+
+                }
+            }
+
+            .footer-links li a {
+                color: $grey-D9D;
+                text-decoration: none;
+            }
+
+            .contact-details {
+                gap: 0.6rem;
+
+                a {
+                    text-decoration: none;
+                    color: $grey-D9D;
+
+                }
+
+                @include media(sm) {
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+
+    .horizontal-line {
+        width: 100%;
+        color: $grey-F5F;
+        margin-bottom: 4rem;
+
+        @include media(sm) {
+            margin: 1.2rem 0;
+        }
+    }
+
+
+}
