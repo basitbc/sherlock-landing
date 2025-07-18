@@ -11,7 +11,7 @@ import tripData from '@/data/tripsData.json';
 
 const baseMetadata = {
   siteName: 'Sherlock Travels',
-  baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'https://sherlocktravels.com',
+  baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'https://kashmir.thesherlocktravels.com',
   defaultImage: '/assets/images/logo/company-logo.png',
   twitterHandle: '@sherlocktravels',
 };

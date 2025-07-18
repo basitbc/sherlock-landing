@@ -1,3 +1,5 @@
+// layout.jsx - Updated with default metadata handling
+
 'use client';
 
 import "../public/assets/css/styles.css";
@@ -13,6 +15,7 @@ import { HeaderProvider } from "@/utilis/HeaderContext";
 import { useState, useEffect } from "react";
 import LeadsModal from "@/components/common/LeadsModal";
 import WhatsApp from "@/components/common/Whatsapp";
+import MetaTags from "@/utilis/seo/MetaTags";
 
 const dmsans = DM_Sans({
   weight: ["400", "500", "700"],
@@ -24,6 +27,46 @@ const dmsans = DM_Sans({
 if (typeof window !== "undefined") {
   import("bootstrap");
 }
+
+// Default metadata for the site
+const defaultMetadata = {
+  title: 'Sherlock Travels: Premier Kashmir Travel Experience | Tailor-Made Tours',
+  description: 'Sherlock Travels specializes in customized travel plans through Kashmir\'s picturesque valleys. From luxurious hotels to cozy homestays, we provide world-class amenities and unparalleled hospitality for extraordinary journeys.',
+  keywords: 'Kashmir travel, Kashmir tour packages, Kashmir tourism, travel agency Kashmir, Kashmir holidays, Srinagar tours, Gulmarg packages, Pahalgam trips, Dal Lake houseboats',
+  openGraph: {
+    title: 'Sherlock Travels: Premier Kashmir Travel Experience | Tailor-Made Tours',
+    description: 'Sherlock Travels specializes in customized travel plans through Kashmir\'s picturesque valleys. From luxurious hotels to cozy homestays, we provide world-class amenities and unparalleled hospitality for extraordinary journeys.',
+    image: '/assets/images/logo/company-logo.png',
+    url: 'https://kashmir.thesherlocktravels.com',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Sherlock Travels'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sherlock Travels: Premier Kashmir Travel Experience | Tailor-Made Tours',
+    description: 'Sherlock Travels specializes in customized travel plans through Kashmir\'s picturesque valleys. From luxurious hotels to cozy homestays, we provide world-class amenities and unparalleled hospitality for extraordinary journeys.',
+    image: '/assets/images/logo/company-logo.png'
+  },
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "Sherlock Travels",
+    "description": "Premier travel agency specializing in Kashmir tour packages and customized travel experiences.",
+    "url": "https://kashmir.thesherlocktravels.com",
+    "logo": "/assets/images/logo/company-logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN",
+      "addressRegion": "Jammu and Kashmir"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "areaServed": "IN"
+    }
+  }
+};
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -68,10 +111,43 @@ export default function RootLayout({ children }) {
     setShowLeadsModal(false);
   };
 
+  // Set default favicon and basic meta tags
+  useEffect(() => {
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') || document.createElement('link');
+    favicon.rel = 'icon';
+    favicon.href = '/assets/images/logo/company-logo.png';
+    if (!document.querySelector('link[rel="icon"]')) {
+      document.head.appendChild(favicon);
+    }
+
+    // Set viewport meta tag
+    const viewport = document.querySelector('meta[name="viewport"]') || document.createElement('meta');
+    viewport.name = 'viewport';
+    viewport.content = 'width=device-width, initial-scale=1.0';
+    if (!document.querySelector('meta[name="viewport"]')) {
+      document.head.appendChild(viewport);
+    }
+
+    // Set charset
+    const charset = document.querySelector('meta[charset]') || document.createElement('meta');
+    charset.setAttribute('charset', 'UTF-8');
+    if (!document.querySelector('meta[charset]')) {
+      document.head.appendChild(charset);
+    }
+  }, []);
+
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/assets/images/logo/company-logo.png" />
+      </head>
       <body className={dmsans.className}>
+        {/* Default metadata - will be overridden by page-specific metadata */}
+        <MetaTags metadata={defaultMetadata} />
+        
         <PackageContext.Provider value={{ packageDetails, setPackageDetails }}>
           <HeaderProvider>
             <Header />
@@ -81,7 +157,7 @@ export default function RootLayout({ children }) {
               {children}
             </Wrapper>
             <LeadsModal 
-            handleClose={handleCloseModal}
+              handleClose={handleCloseModal}
               show={showLeadsModal} 
             />
             <WhatsApp />

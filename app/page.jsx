@@ -1,3 +1,5 @@
+// page.jsx (Kashmir page) - Updated with metadata
+
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -7,17 +9,22 @@ import SectionHeader from '@/components/layout/SectionHeader';
 import AboutSection from '@/components/common/About';
 import Hero from '@/components/common/Hero';
 import TripsListSection from '@/components/destinations/TripsList';
-import { destinationData } from '@/data/destinationData'; // Import destination data
-import tripData from '../data/tripsData.json'; // Import trip data
+import { destinationData } from '@/data/destinationData';
+import tripData from '../data/tripsData.json';
 import SherlockLoader from '@/components/common/SherlockLoader';
 import ReviewsSection from '@/components/home/reviews';
 import LeadsModal from '@/components/common/LeadsModal';
+import MetaTags from '@/utilis/seo/MetaTags';
+import { generateKashmirPageMetadata } from '@/utilis/seo/generateMetadata';
 
 const Page = () => {
   const router = useRouter();
   const [kashmirTrips, setKashmirTrips] = useState([]);
   const [loading, setLoading] = useState(true);
   const [open, setOpen] = useState(false);
+
+  // Generate metadata for this page
+  const pageMetadata = generateKashmirPageMetadata();
 
   // Section navigation configuration
   const sections = [
@@ -54,7 +61,6 @@ const Page = () => {
   }, []);
 
   const handleStartPlanning = () => {
-    // router.push('/enquiry');
     setOpen(true)
   };
 
@@ -97,51 +103,57 @@ const Page = () => {
   }
 
   return (
-    <div className="destination-page">
-      {/* Hero Section */}
-      <Hero
-        title={kashmirDestination.title}
-        subtitle={kashmirDestination.subtitle}
-        backgroundImage={kashmirDestination.heroImage}
-        ctaText="EXPLORE NOW"
-        onCTAClick={handleHeroCTA}
-        className="hero-section--destination"
-      />
-
-      {/* Section Navigation */}
-      <SectionHeader sections={sections} />
-
-  <LeadsModal show={open} handleClose={()=>{setOpen(false)}}/>
-      {/* Overview Section */}
-      <AboutSection 
-        id="overview"
-        title={kashmirDestination.overview.title}
-        description={kashmirDestination.overview.description}
-        ctaText="START PLANNING..."
-        readMoreText="READ MORE +"
-        onCTAClick={handleStartPlanning}
-        onReadMoreClick={handleReadMore}
-        showBreadcrumb={true}
-        className="about-section--fade-in page-section"
-      />
-
-      {/* Packages Section */}
-      <section id="packages" className="packages-section page-section">
-        <TripsListSection
-          title="FEATURED KASHMIR PACKAGES"
-          description="Discover handpicked travel experiences in Kashmir. Our expertly crafted packages offer the perfect blend of adventure, comfort, and authentic local experiences."
-          tripData={kashmirTrips}
-          location="Kashmir"
-          className="trips-list-section--compact"
-          showBookNow={true}
+    <>
+      {/* SEO Meta Tags */}
+      <MetaTags metadata={pageMetadata} />
+      
+      <div className="destination-page">
+        {/* Hero Section */}
+        <Hero
+          title={kashmirDestination.title}
+          subtitle={kashmirDestination.subtitle}
+          backgroundImage={kashmirDestination.heroImage}
+          ctaText="EXPLORE NOW"
+          onCTAClick={handleHeroCTA}
+          className="hero-section--destination"
         />
-      </section>
 
-      {/* Reviews Section */}
-      <section id="reviews">
-        <ReviewsSection />
-      </section>
-    </div>
+        {/* Section Navigation */}
+        <SectionHeader sections={sections} />
+
+        <LeadsModal show={open} handleClose={()=>{setOpen(false)}}/>
+        
+        {/* Overview Section */}
+        <AboutSection 
+          id="overview"
+          title={kashmirDestination.overview.title}
+          description={kashmirDestination.overview.description}
+          ctaText="START PLANNING..."
+          readMoreText="READ MORE +"
+          onCTAClick={handleStartPlanning}
+          onReadMoreClick={handleReadMore}
+          showBreadcrumb={true}
+          className="about-section--fade-in page-section"
+        />
+
+        {/* Packages Section */}
+        <section id="packages" className="packages-section page-section">
+          <TripsListSection
+            title="FEATURED KASHMIR PACKAGES"
+            description="Discover handpicked travel experiences in Kashmir. Our expertly crafted packages offer the perfect blend of adventure, comfort, and authentic local experiences."
+            tripData={kashmirTrips}
+            location="Kashmir"
+            className="trips-list-section--compact"
+            showBookNow={true}
+          />
+        </section>
+
+        {/* Reviews Section */}
+        <section id="reviews">
+          <ReviewsSection />
+        </section>
+      </div>
+    </>
   );
 };
 
